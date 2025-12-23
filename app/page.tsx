@@ -19,18 +19,26 @@ export default function Page() {
     <main className="min-h-screen">
       <Navbar />
       <HeroSection />
-      <VisitSection />
+       <StatsSection />
+         <VideoSection />
+          <ExhibitSection />
+       <VisitSection />
+        <DownloadSection />
+          <SectorsSection />
+          <SocialFooterSection />
+              <CountriesSection />
+     
       <TestimonialsSection />
-      <SectorsSection />
-      <VideoSection />
-      <CountriesSection />
-      <StatsSection />
-      <DownloadSection />
-      <ExhibitSection />
+    
+    
+  
+     
+     
+     
       
       
      
-      <SocialFooterSection />
+      
        <InsightsTrendsSection />
       <CapturedMomentsSection />
       <PartnersSection />
