@@ -2,7 +2,7 @@ export function VideoSection() {
   return (
     <section className="bg-[#1a2c42] py-16 md:py-24">
       <div className="container mx-auto px-4">
-        <div className="relative aspect-video max-w-5xl mx-auto rounded-lg overflow-hidden">
+        <div className="relative aspect-video max-w-[88rem] mx-auto rounded-lg overflow-hidden">
           <iframe
             className="w-full h-full"
             src="https://www.youtube.com/embed/dQw4w9WgXcQ"

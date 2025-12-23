@@ -13,13 +13,15 @@ import { PartnersSection } from "@/components/PartnersSection"
 import { CapturedMomentsSection } from "@/components/CapturedMomentsSection"
 import { InsightsTrendsSection } from "@/components/InsightsTrendsSection"
 import { MainFooter } from "@/components/MainFooter"
+import VisitorSection from "@/components/VisitorSection"
 
 export default function Page() {
   return (
     <main className="min-h-screen">
       <Navbar />
       <HeroSection />
-       <StatsSection />
+       {/* <StatsSection /> */}
+       <VisitorSection />
          <VideoSection />
           <ExhibitSection />
        <VisitSection />

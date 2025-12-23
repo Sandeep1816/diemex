@@ -46,7 +46,7 @@ export function Navbar() {
         {/* Right Side Actions */}
         <div className="flex items-center gap-3">
           <div className="hidden lg:flex items-center gap-3">
-            <Image src="img/flags/ru.png" alt="Language" width={24} height={24} className="rounded-full" />
+            <Image src="/images/ru.png" alt="Language - India" width={24} height={24} className="rounded-full" />
             <Button variant="default" className="bg-[#ef4444] hover:bg-[#dc2626] text-white">
               Exhibit
             </Button>

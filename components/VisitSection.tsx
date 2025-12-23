@@ -3,33 +3,52 @@ import { ArrowRight } from "lucide-react"
 
 export function VisitSection() {
   return (
-    <section className="bg-[#1a2c42] text-white py-16 md:py-24">
-      <div className="container mx-auto px-4">
-        <div className="grid md:grid-cols-2 gap-8 lg:gap-16 items-center">
-          <div className="space-y-6">
-            <h2 className="text-6xl md:text-7xl lg:text-8xl font-black tracking-tight">VISIT</h2>
+    <section className="bg-[#0f2540] text-white py-28">
+      <div className="max-w-[90rem] mx-auto px-10">
+        <div className="grid md:grid-cols-2 gap-24 items-start">
+          
+          {/* LEFT: Tall Image */}
+          <div className="relative h-[520px] md:h-[620px] max-w-lg overflow-hidden">
+            <img
+              src="/images/image.png"
+              alt="MITT Exhibition Hall"
+              className="w-full h-full object-cover"
+            />
+          </div>
 
-            <div className="space-y-4">
-              <h3 className="text-2xl md:text-3xl font-bold text-balance">Unlock New Horizons at Diemex 2026</h3>
+          {/* RIGHT: Content */}
+          <div className="flex flex-col space-y-12 pt-10">
+            
+            <h2 className="text-[5.5rem] md:text-[6.5rem] font-extrabold tracking-tight leading-none">
+              VISIT
+            </h2>
 
-              <p className="text-base md:text-lg leading-relaxed text-gray-300">
-                Discover destinations, forge long-lasting partnerships, and explore innovative travel solutions all in
-                one place. Diemex is your gateway to the world of tourism, where airlines, hotels, travel tech, and global
-                opportunities await.
+            <div className="space-y-6 max-w-xl">
+              <p className="text-lg font-semibold">
+                Unlock New Horizons at MITT 2026
+              </p>
+
+              <p className="text-lg leading-relaxed text-white/80">
+                Discover destinations, forge long-lasting partnerships, and
+                explore innovative travel solutions all in one place. MITT is
+                your gateway to the world of tourism, where airlines, hotels,
+                travel tech, and global opportunities await.
               </p>
             </div>
 
-            <Link
-              href="#"
-              className="inline-flex items-center gap-2 text-white hover:text-gray-300 transition-colors border-b-2 border-white hover:border-gray-300 pb-1 font-medium uppercase text-sm tracking-wide"
-            >
-              Discover Visiting Benefits
-              <ArrowRight className="h-4 w-4" />
-            </Link>
-          </div>
+            {/* CTA */}
+            <div className="pt-10 border-t border-white/30 max-w-2xl flex items-center justify-between">
+              <Link
+                href="#"
+                className="group inline-flex items-center gap-3 uppercase text-sm tracking-widest"
+              >
+                Discover Visiting Benefits
+                <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
+              </Link>
 
-          <div className="relative aspect-[4/3] md:aspect-square overflow-hidden rounded-lg">
-            <img src="/busy-travel-exhibition-hall-with-visitors.jpg" alt="Diemex Exhibition Hall" className="object-cover w-full h-full" />
+              <ArrowRight className="h-5 w-5 rotate-90 opacity-70" />
+            </div>
+
           </div>
         </div>
       </div>
