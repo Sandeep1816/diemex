@@ -25,7 +25,7 @@ export function SectorsSection() {
   return (
     <section className="py-16 md:py-24">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-12 text-primary text-balance">
+        <h2 className="text-3xl md:text-4xl lg:text-6xl font-bold text-center mb-12 text-primary text-balance">
           Explore Diverse Market Sectors at Diemex 2025
         </h2>
 

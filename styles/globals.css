@@ -125,3 +125,100 @@
 }
 
 
+/* ===== HERO STEP REVEAL (FULL BLUE → RIGHT → LEFT) ===== */
+
+.hero-step-mask {
+  position: absolute;
+  inset: 0;
+  background: #0f2742;
+  z-index: 10;
+
+  /* START FULL BLUE */
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% 100%,
+    0 100%
+  );
+
+  transform: translateX(0);
+  animation: stepRevealFromRight 1.8s cubic-bezier(0.65, 0, 0.35, 1) forwards;
+}
+
+/* STEP SHAPE + MOVE LEFT */
+@keyframes stepRevealFromRight {
+  0% {
+    clip-path: polygon(
+      0 0,
+      100% 0,
+      100% 100%,
+      0 100%
+    );
+    transform: translateX(0);
+  }
+
+  40% {
+    clip-path: polygon(
+      0 0,
+      35% 0,
+      35% 28%,
+      60% 28%,
+      60% 60%,
+      100% 60%,
+      100% 100%,
+      0 100%
+    );
+    transform: translateX(0);
+  }
+
+  100% {
+    clip-path: polygon(
+      0 0,
+      35% 0,
+      35% 28%,
+      60% 28%,
+      60% 60%,
+      100% 60%,
+      100% 100%,
+      0 100%
+    );
+    transform: translateX(-120%);
+  }
+}
+
+/* TEXT REVEAL */
+@keyframes textReveal {
+  from {
+    opacity: 0;
+    transform: translateX(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-textReveal {
+  animation: textReveal 0.6s ease-out forwards;
+}
+
+.hero-ultra-bold {
+  -webkit-text-stroke: 1.2px currentColor;
+  transform: scaleX(1.04);
+}
+
+
+/* ===== MARQUEE SCROLL ===== */
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 6s linear infinite;
+}

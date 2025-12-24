@@ -84,13 +84,17 @@ export function MainFooter() {
       </div>
 
       {/* Diemex 2026 Pattern */}
-      <div className="bg-[#0f1a2a] overflow-hidden py-8">
-        <div className="whitespace-nowrap animate-marquee">
-          <span className="inline-block text-[8rem] md:text-[12rem] font-black text-white/5 px-8">
-            Diemex 2026 Diemex 2026 Diemex 2026 Diemex 2026
-          </span>
-        </div>
-      </div>
+  <div className="bg-[#0f1a2a] overflow-hidden py-10">
+  <div className="flex whitespace-nowrap animate-marquee">
+    <span className="inline-block text-[8rem] md:text-[12rem] font-black text-white px-12">
+      Diemex 2026 Diemex 2026 Diemex 2026 Diemex 2026
+    </span>
+    <span className="inline-block text-[8rem] md:text-[12rem] font-black text-white px-12">
+      Diemex 2026 Diemex 2026 Diemex 2026 Diemex 2026
+    </span>
+  </div>
+</div>
+
     </footer>
   )
 }

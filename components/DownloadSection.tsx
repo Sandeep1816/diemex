@@ -25,7 +25,7 @@ export function DownloadSection() {
 
           <div className="relative flex justify-center items-center">
             <img
-              src="/images/image.png"
+              src="/images/brochure.png"
               alt="MITT Event Brochure"
               className="w-full max-w-md object-contain drop-shadow-2xl"
             />
