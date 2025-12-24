@@ -38,11 +38,17 @@ export function HeroSection() {
               tracking-tight
             "
           >
-            <span className="block whitespace-nowrap">
+            {/* Mobile / Tablet */}
+            <span className="block lg:hidden">
               WHERE DESTINATIONS
             </span>
-            <span className="block">
+            <span className="block lg:hidden">
               MEET
+            </span>
+
+            {/* Desktop */}
+            <span className="hidden lg:block whitespace-nowrap">
+              WHERE DESTINATIONS MEET
             </span>
           </h1>
 

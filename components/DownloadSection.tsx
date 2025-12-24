@@ -4,7 +4,7 @@ export function DownloadSection() {
   return (
     <section className="bg-secondary py-16 md:py-24">
       <div className="container mx-auto px-4">
-        <div className="grid md:grid-cols-2 gap-8 lg:gap-16 items-center max-w-6xl mx-auto">
+        <div className="grid md:grid-cols-2 gap-8 lg:gap-16 items-center max-w-8xl mx-auto">
           <div className="space-y-6">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary text-balance">
               Want to Learn More About MITT?

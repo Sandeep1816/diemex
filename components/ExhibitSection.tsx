@@ -43,7 +43,7 @@ export function ExhibitSection() {
           {/* RIGHT: Tall Image */}
           <div className="relative h-[520px] md:h-[620px] max-w-lg ml-auto overflow-hidden">
             <img
-              src="/images/image.png"
+              src="business-professionals-at-exhibition-booth.jpg"
               alt="MITT Exhibition"
               className="w-full h-full object-cover"
             />

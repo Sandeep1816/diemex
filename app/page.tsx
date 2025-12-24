@@ -1,7 +1,7 @@
 import { Navbar } from "@/components/Navbar"
 import { HeroSection } from "@/components/HeroSection"
 import { VisitSection } from "@/components/VisitSection"
-import { TestimonialsSection } from "@/components/TestimonialsSection"
+import { TestimonialCarousel } from "@/components/TestimonialsSection"
 import { SectorsSection } from "@/components/SectorsSection"
 import { VideoSection } from "@/components/VideoSection"
 import { CountriesSection } from "@/components/CountriesSection"
@@ -30,7 +30,8 @@ export default function Page() {
           <SocialFooterSection />
               <CountriesSection />
      
-      <TestimonialsSection />
+      {/* <TestimonialsSection /> */}
+      <TestimonialCarousel />
     
     
   

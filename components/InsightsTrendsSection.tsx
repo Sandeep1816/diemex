@@ -76,7 +76,7 @@ export function InsightsTrendsSection() {
           >
             {insights.map((insight, index) => (
               <div key={index} className="flex-shrink-0 w-full md:w-1/2 lg:w-1/3">
-                <div className="bg-white rounded-lg overflow-hidden shadow-lg h-full flex flex-col">
+                <div className="bg-none rounded-none overflow-hidden shadow-none h-full flex flex-col">
                   <img
                     src={insight.image || "/placeholder.svg"}
                     alt={insight.title}

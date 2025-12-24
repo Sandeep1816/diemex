@@ -9,7 +9,7 @@ export function StatsSection() {
   return (
     <section className="bg-background py-12 md:py-16">
       <div className="container mx-auto px-4 md:px-8">
-        <div className="max-w-6xl mx-auto space-y-12 md:space-y-16">
+        <div className="max-w-8xl mx-auto space-y-12 md:space-y-16">
           <div className="space-y-6">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary text-balance leading-tight">
               Over 30 Years of Shaping the Future of Travel and Tourism

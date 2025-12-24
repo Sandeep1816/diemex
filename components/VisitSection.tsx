@@ -10,7 +10,7 @@ export function VisitSection() {
           {/* LEFT: Tall Image */}
           <div className="relative h-[520px] md:h-[620px] max-w-lg overflow-hidden">
             <img
-              src="/images/image.png"
+              src="busy-travel-exhibition-hall-with-visitors.jpg"
               alt="MITT Exhibition Hall"
               className="w-full h-full object-cover"
             />
