@@ -12,46 +12,47 @@ export default function PartnersAndSponsorsPage() {
         <PartnersSection
           title="Government"
           items={[
-            "/images/partners/gov1.png",
-            "/images/partners/gov2.png",
-            "/images/partners/gov3.png",
+            "/images/fastenexlogo.webp",
+             "/images/fastenexlogo.webp",
+              "/images/fastenexlogo.webp",
+            // "/images/partners/gov2.png",
+            // "/images/partners/gov3.png",
           ]}
         />
 
         <PartnersSection
           title="Association"
           items={[
-            "/images/partners/assoc1.png",
-            "/images/partners/assoc2.png",
-            "/images/partners/assoc3.png",
+         "/images/fastenexlogo.webp",
+             "/images/fastenexlogo.webp",
+              "/images/fastenexlogo.webp",
           ]}
         />
 
         <PartnersSection
           title="General Partners"
           items={[
-            "/images/partners/gen1.png",
-            "/images/partners/gen2.png",
-            "/images/partners/gen3.png",
-            "/images/partners/gen4.png",
+          "/images/fastenexlogo.webp",
+             "/images/fastenexlogo.webp",
+              "/images/fastenexlogo.webp",
           ]}
         />
 
         <PartnersSection
           title="MITT Travel Start Partners"
           items={[
-            "/images/partners/start1.png",
-            "/images/partners/start2.png",
-            "/images/partners/start3.png",
+          "/images/fastenexlogo.webp",
+             "/images/fastenexlogo.webp",
+              "/images/fastenexlogo.webp",
           ]}
         />
 
         <PartnersSection
           title="Media Partners"
           items={[
-            "/images/partners/media1.png",
-            "/images/partners/media2.png",
-            "/images/partners/media3.png",
+           "/images/fastenexlogo.webp",
+             "/images/fastenexlogo.webp",
+              "/images/fastenexlogo.webp",
           ]}
         />
 
