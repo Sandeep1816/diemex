@@ -47,7 +47,7 @@ export function HeroSection() {
             </span>
 
             {/* Desktop */}
-            <span className="hidden lg:block whitespace-nowrap">
+            <span className="title-202">
               WHERE DESTINATIONS MEET
             </span>
           </h1>

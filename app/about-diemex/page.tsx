@@ -20,7 +20,7 @@ import { PartnersSection } from "@/components/PartnersSection"
 export default function AboutMITTPage() {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <HeroSection />
       <AboutStatsSection />
        <SectorsSection />
@@ -37,7 +37,7 @@ export default function AboutMITTPage() {
       <QuickNavigationSection />
         <PartnersSection />
       
-      <MainFooter />
+      {/* <MainFooter /> */}
       <ScrollToTop />
     </>
   )
