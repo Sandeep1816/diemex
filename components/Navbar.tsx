@@ -100,10 +100,10 @@ export function Navbar() {
           { number: "02", label: "Exhibition Sectors", href: "/sectors" },
           { number: "03", label: "Plan Your Travel", href: "/plan-your-travel" },
           { number: "04", label: "Exhibitor Resource Centre", href: "/exhibitor-resource-centre" },
-          { number: "05", label: "Exhibitor Promotion", href: "/exhibitor-promotion" },
-          { number: "06", label: "Enquire to Exhibit", href: "/enquire-to-exhibit" },
-          { number: "07", label: "Download Event Brochure", href: "/event-brochure" },
-          { number: "08", label: "Download Post Show Report 2025", href: "/post-show-report-2025" },
+          { number: "05", label: "Exhibitor Promotion", href: "/free-promo" },
+          { number: "06", label: "Enquire to Exhibit", href: "/exhibitor-enquiry" },
+          { number: "07", label: "Download Event Brochure", href: "/download-event-brochure" },
+          { number: "08", label: "Download Post Show Report 2025", href: "/exhibit/download-post-show-report" },
         ]}
       />
 
