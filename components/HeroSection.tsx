@@ -30,12 +30,12 @@ export function HeroSection() {
           <h1
             className="
               w-full
-              max-w-none
-              text-[clamp(44px,7vw,124px)]
+              
+              
               font-black
               text-primary
-              leading-[0.95]
-              tracking-tight
+              title-201
+             
             "
           >
             {/* Mobile / Tablet */}
@@ -52,7 +52,7 @@ export function HeroSection() {
             </span>
           </h1>
 
-          <p className="mt-4 text-sm md:text-base text-muted-foreground max-w-2xl">
+          <p className="mt-4 hero-meta max-w-2xl">
             The leading B2B exhibition for the travel, tourism and hospitality industry in CIS
           </p>
 

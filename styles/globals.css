@@ -324,10 +324,23 @@
   font-weight: 900;
   line-height: 1;
 }
+
+.title-92 {
+  font-family: "Etrusco Now Condensed", ui-sans-serif, system-ui, sans-serif;
+  font-size: clamp(20px, 10vw, 82px);
+  font-weight: 900;
+  line-height: 1;
+}
 .title-70 {
   font-family: "Etrusco Now Condensed", ui-sans-serif, system-ui, sans-serif;
   font-size: clamp(20px, 10vw, 72px);
   font-weight: 600;
+  line-height: 1;
+}
+.title-50 {
+  font-family: "Etrusco Now Condensed", ui-sans-serif, system-ui, sans-serif;
+  font-size: clamp(10px, 10vw, 50px);
+  font-weight: 500;
   line-height: 1;
 }
 /* BODY TEXT */
@@ -349,5 +362,21 @@
   font-family: "Afical Neue", ui-sans-serif, system-ui, sans-serif;
   font-weight: 800;
   letter-spacing: 0.02em;
+}
+
+.hero-subtext {
+  font-size: 20px;
+  line-height: 1.4;
+  color: #10223b;
+  margin-bottom: 40px;
+  white-space: pre-line;
+  font-weight: 400;
+} 
+
+.hero-meta {
+  font-size: 14px;
+  line-height: 1.4;
+  color: #10223b;
+  font-weight: 400;
 }
 

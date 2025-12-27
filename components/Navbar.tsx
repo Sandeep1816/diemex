@@ -16,12 +16,17 @@ export function Navbar() {
         <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
 
           {/* LEFT */}
-          <div className="flex items-center gap-6">
+           <Link href="/">
+             <div className="flex items-center gap-6">
             <Image src="/images/diemexlogo.png" alt="MITT" width={80} height={30} />
             <span className="text-sm text-[#0b1f33]">
               23 - 13 May 2026 - Pune
             </span>
           </div>
+           
+           </Link>
+          
+        
 
           {/* CENTER NAV */}
           <nav className="hidden lg:flex items-center gap-8 text-sm text-[#0b1f33]">
@@ -37,9 +42,10 @@ export function Navbar() {
               Attend <ChevronDown size={14} />
             </button>
 
-            <button onClick={() => setOpen("connect")}>
+            {/* <button onClick={() => setOpen("connect")}>
               Connect
-            </button>
+            </button> */}
+            <Link href="/connect">Connect</Link>
 
             <button onClick={() => setOpen("insights")} className="flex items-center gap-1">
               Industry Insights <ChevronDown size={14} />
@@ -55,12 +61,15 @@ export function Navbar() {
           {/* RIGHT */}
           <div className="flex items-center gap-4">
             <Image src="/images/ru.png" alt="RU" width={28} height={18} />
-            <button className="bg-red-500 text-white px-4 py-2 rounded-full text-sm">
+            {/* <button className="bg-red-500 text-white px-4 py-2 rounded-full text-sm">
               Exhibit
-            </button>
-            <button className="bg-red-500 text-white px-4 py-2 rounded-full text-sm">
+            </button> */}  
+            <Link href="/exhibitor-enquiry">Exhibit</Link>
+            {/* <button className="bg-red-500 text-white px-4 py-2 rounded-full text-sm">
               Register
-            </button>
+            </button> */}
+
+            <Link href="/visitor-registration">Register</Link>
           </div>
         </div>
       </header>
@@ -106,9 +115,9 @@ export function Navbar() {
         sectionTitle="Attend"
         items={[
           { number: "01", label: "Why Visit", href: "/why-visit" },
-          { number: "02", label: "Event Sectors", href: "/event-sectors" },
+          { number: "02", label: "Event Sectors", href: "/sectors" },
           { number: "03", label: "Plan Your Travel", href: "/plan-your-travel" },
-          { number: "04", label: "Visitor Enquiry", href: "/visitor-enquiry" },
+          { number: "04", label: "Visitor Enquiry", href: "/visitor-registration" },
         ]}
       />
 
@@ -132,8 +141,8 @@ export function Navbar() {
         sectionTitle="Industry Insights"
         items={[
           { number: "01", label: "Industry News", href: "/industry-news" },
-          { number: "02", label: "Download Post Show Report", href: "/post-show-report" },
-          { number: "03", label: "Download Event Brochure", href: "/event-brochure" },
+          { number: "02", label: "Download Post Show Report", href: "/exhibit/download-post-show-report" },
+          { number: "03", label: "Download Event Brochure", href: "/download-event-brochure" },
         ]}
       />
 
