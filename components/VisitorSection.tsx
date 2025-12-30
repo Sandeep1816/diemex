@@ -7,7 +7,7 @@ import { ArrowUp } from "lucide-react"
 
 export default function VisitorSection() {
   return (
-    <main className="min-h-screen bg-background">
+    <main className="min-h-screen">
       <StatsSection />
       <CtaButtons />
 

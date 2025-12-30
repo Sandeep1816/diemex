@@ -33,7 +33,7 @@ export default function RootLayout({
       className={`${geist.variable} ${geistMono.variable} ${bebasNeue.variable}`}
     >
       <Navbar />
-      <body className="font-sans antialiased bg-[#f4f2ee]">
+      <body className="font-sans antialiased bg-[#e5e7eb]">
         {children}
         <Analytics />
       </body>

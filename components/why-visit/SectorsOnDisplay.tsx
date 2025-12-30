@@ -20,7 +20,7 @@ const sectors = [
 
 export default function SectorsOnDisplay() {
   return (
-    <section className="bg-[#f3f2f1] py-[140px]">
+    <section className="py-[140px]">
       <div className="max-w-[1400px] mx-auto px-6 lg:px-20">
         <h2 className="title-50 font-black text-[#0f2238] mb-12">
           Sectors On Display

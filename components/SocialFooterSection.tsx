@@ -4,7 +4,7 @@ import Link from "next/link"
 
 export function SocialFooterSection() {
   return (
-    <section className="bg-background py-16 md:py-24">
+    <section className=" py-16 md:py-24">
       <div className="container mx-auto px-4">
         <div className="max-w-8xl mx-auto">
           {/* Social Media Section */}

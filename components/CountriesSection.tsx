@@ -21,7 +21,7 @@ export function CountriesSection() {
   ]
 
   return (
-    <section className="bg-background py-16 md:py-24 relative overflow-hidden">
+    <section className=" py-16 md:py-24 relative overflow-hidden">
       <div className="container mx-auto px-4 relative z-10">
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-12 text-primary text-balance">
           Meet the World : Our Exhibiting Countries

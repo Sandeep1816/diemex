@@ -7,7 +7,7 @@ export function StatsSection() {
   ]
 
   return (
-    <section className="bg-background py-12 md:py-16">
+    <section className="py-12 md:py-16">
       <div className="container mx-auto px-4 md:px-8">
         <div className="max-w-8xl mx-auto space-y-12 md:space-y-16">
           <div className="space-y-6">
@@ -15,7 +15,7 @@ export function StatsSection() {
               Over 30 Years of Shaping the Future of Travel and Tourism
             </h2>
 
-            <div className="space-y-4 text-base md:text-lg leading-relaxed text-foreground">
+            <div className="space-y-4 md:text-lg leading-relaxed subheading">
               <p>
                 For more than three decades, MITT has been the leading travel and hospitality event in the CIS region,
                 connecting global travel professionals, tourism authorities, and industry leaders. As the largest annual

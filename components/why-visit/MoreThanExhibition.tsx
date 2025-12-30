@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function MoreThanExhibition() {
   return (
-    <section className="bg-[#f3f2f1] py-[160px]">
+    <section className="py-[160px]">
       <div className="max-w-[1400px] mx-auto px-6 lg:px-20 space-y-[160px]">
 
         {/* SECTION 1 — CONFERENCE PROGRAMME */}

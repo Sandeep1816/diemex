@@ -4,7 +4,7 @@ import ReportForm from "@/components/PostShowReport/ReportForm"
 
 export default function DownloadPostShowReportPage() {
   return (
-    <main className="bg-[#f3f2f1] max-w-full">
+    <main className="max-w-full">
       <HeroSection />
 
       {/* CONTENT */}

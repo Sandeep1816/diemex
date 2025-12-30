@@ -17,7 +17,7 @@ import VisitorSection from "@/components/VisitorSection"
 
 export default function Page() {
   return (
-    <main className="min-h-screen">
+    <main className="min-h-screen ">
       {/* <Navbar /> */}
       <HeroSection />
        {/* <StatsSection /> */}
@@ -31,17 +31,7 @@ export default function Page() {
               <CountriesSection />
      
       {/* <TestimonialsSection /> */}
-      <TestimonialCarousel />
-    
-    
-  
-     
-     
-     
-      
-      
-     
-      
+      <TestimonialCarousel /> 
        <InsightsTrendsSection />
       <CapturedMomentsSection />
       <PartnersSection />

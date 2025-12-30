@@ -2,11 +2,11 @@ import Image from "next/image"
 
 export default function HeroSection() {
   return (
-    <section className="bg-background">
+    <section className="">
 
       {/* TITLE */}
       <div className="px-6 pt-10 pb-8 md:pt-16 md:pb-12">
-        <h1 className="title-main text-primary">
+        <h1 className="title-main title-202">
           ABOUT DIEMEX GROUP
         </h1>
       </div>

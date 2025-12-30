@@ -9,7 +9,7 @@ export function ExhibitSection() {
 
           {/* LEFT: Content */}
           <div className="flex flex-col space-y-12 pt-6">
-            <h2 className="text-[5.5rem] md:text-[6.5rem] font-extrabold tracking-tight leading-none">
+            <h2 className="text-[1.5rem] md:text-[6.5rem] title-92 -tracking-[0.05em] leading-none">
               EXHIBIT
             </h2>
 

@@ -35,8 +35,8 @@ export function CapturedMomentsSection() {
     setCurrentIndex((prev) => (prev - 1 + maxIndex) % maxIndex)
   }
 
-  return (
-    <section className="bg-muted py-16 md:py-24">
+  return (  
+    <section className=" py-16 md:py-24">
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="flex items-center justify-between mb-12">

@@ -293,20 +293,50 @@
 }
 
 .title-202 {
- font-family: "Bebas Neue", "Etrusco Now Condensed", ui-sans-serif, system-ui, sans-serif;
+  /* Fonts */
+  --font-helvetica: "__helvetica_42c4fe","__helvetica_Fallback_42c4fe";
+  --font-bebas: "__Bebas_Neue_d758cf","__Bebas_Neue_Fallback_d758cf";
 
-  /* responsive large size */
-  font-size: clamp(64px, 10vw, 200px);
+  font-family: var(--font-bebas),
+    "Bebas Neue",
+    "Etrusco Now Condensed",
+    ui-sans-serif,
+    system-ui,
+    sans-serif,
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol",
+    "Noto Color Emoji";
 
+  /* Typography */
+  font-size: clamp(40px, 13vw, 200px);
   font-weight: 700;
-  line-height: 1.05;      /* taller letters */
-  letter-spacing: 0.01em;
+  line-height: 1;
+  letter-spacing: normal;
 
-  color: #10223B;
+  /* Color */
+  color: #10223b; /* darkBlue */
 
-  white-space: normal;   /* ✅ allow wrapping */
+  /* Rendering */
+  -webkit-font-smoothing: antialiased;
+  text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+
+  /* Layout behavior */
+  display: flex;
+  flex-direction: column;
+
+  /* Wrapping */
+  white-space: normal;
   word-break: break-word;
+
+  /* Reset junk from computed styles */
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
 }
+
 
 
 /* ULTRA LARGE MITT TITLES */
@@ -326,10 +356,10 @@
 }
 
 .title-92 {
-  font-family: "Etrusco Now Condensed", ui-sans-serif, system-ui, sans-serif;
+  font-family: "Posterman Black", system-ui;
   font-size: clamp(20px, 10vw, 82px);
   font-weight: 900;
-  line-height: 1;
+  line-height: 1.5;
 }
 .title-70 {
   font-family: "Etrusco Now Condensed", ui-sans-serif, system-ui, sans-serif;
@@ -379,4 +409,45 @@
   color: #10223b;
   font-weight: 400;
 }
+
+.subheading {
+  /* Font variables */
+  --font-helvetica: "__helvetica_42c4fe","__helvetica_Fallback_42c4fe";
+  --font-bebas: "__Bebas_Neue_d758cf","__Bebas_Neue_Fallback_d758cf";
+
+  /* Typography */
+  font-family: var(--font-helvetica),
+    ui-sans-serif,
+    system-ui,
+    sans-serif,
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol",
+    "Noto Color Emoji";
+
+  font-size: 1.25rem;      /* 20px */
+  line-height: 1.75rem;    /* 28px */
+  font-weight: 400;
+
+  /* Color */
+  color: #10223b; /* darkBlue */
+
+  /* Rendering */
+  -webkit-font-smoothing: antialiased;
+  text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+
+  /* Spacing */
+  margin: 0;
+  margin-bottom: 2.5rem;
+
+  /* Text behavior */
+  white-space: pre-line;
+
+  /* Reset junk */
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
 

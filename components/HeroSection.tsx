@@ -23,19 +23,17 @@ export function HeroSection() {
   }, [])
 
   return (
-    <section className="bg-background py-16 md:py-20 overflow-hidden">
+    <section className=" py-16 md:py-20 overflow-hidden">
       <div className="container mx-auto px-4">
         {/* TEXT */}
         <div className="w-full">
           <h1
             className="
               w-full
-              
-              
               font-black
               text-primary
-              title-201
-             
+              title-202
+              text-6xl
             "
           >
             {/* Mobile / Tablet */}
@@ -52,17 +50,18 @@ export function HeroSection() {
             </span>
           </h1>
 
-          <p className="mt-4 hero-meta max-w-2xl">
+          <p className="mt-4 subheading">
             The leading B2B exhibition for the travel, tourism and hospitality industry in CIS
+           <br /> 11–13 March 2026 | Pavilion 1, Crocus Expo | Moscow
           </p>
 
-          <p className="mt-1 text-sm text-muted-foreground">
-            11–13 March 2026 | Pavilion 1, Crocus Expo | Moscow
-          </p>
+          
+            
+          
         </div>
 
         {/* HERO IMAGE SLIDER */}
-        <div className="mt-10 relative h-[280px] md:h-[420px] lg:h-[520px] overflow-hidden rounded-md">
+        <div className="mt-10 relative h-[280px] md:h-[420px] lg:h-[520px] overflow-hidden">
           {images.map((src, index) => {
             const isActive = index === current
 

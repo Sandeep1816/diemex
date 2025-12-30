@@ -41,7 +41,7 @@ const SNAPSHOTS = [
 
 export default function MarketSnapshot() {
   return (
-    <section className="bg-[#f2f2f2] antialiased">
+    <section className=" antialiased">
       <div className="max-w-full mx-auto px-6 py-28">
 
         <h2 className="font-[var(--font-helvetica)] text-[#10223B] text-[clamp(2.5rem,4vw,4.5rem)] font-bold mb-20">

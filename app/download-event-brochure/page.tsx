@@ -8,7 +8,7 @@ import { PartnersSection } from "@/components/PartnersSection"
 
 export default function DownloadEventBrochurePage() {
   return (
-    <main className="bg-[#f3f2f1] max-w-full">
+    <main className=" max-w-full">
       <HeroSection />
 
       <section className="px-6 pb-[160px]">

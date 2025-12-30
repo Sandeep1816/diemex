@@ -17,7 +17,7 @@ import WhenAndWhere from "@/components/why-exhibit/WhenAndWhere";
 
 export default function WhyExhibitPage() {
   return (
-    <main className="bg-[#0b1c2d] text-white">
+    <main className=" text-white">
       <HeroSection />
       <UnlockHorizons />
       <MarketSnapshot />

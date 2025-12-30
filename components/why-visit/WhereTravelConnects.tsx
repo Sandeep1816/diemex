@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function WhereTravelConnects() {
   return (
-    <section className="bg-[#f3f2f1] pb-[140px]">
+    <section className=" pb-[140px]">
       <div className="max-w-[1400px] mx-auto px-6 lg:px-20 grid lg:grid-cols-2 gap-16">
 
         <div>

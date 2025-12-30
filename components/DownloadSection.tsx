@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button"
 
 export function DownloadSection() {
   return (
-    <section className="bg-secondary py-16 md:py-24">
+    <section className=" py-16 md:py-24">
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-2 gap-8 lg:gap-16 items-center max-w-full mx-auto">
           <div className="space-y-6">

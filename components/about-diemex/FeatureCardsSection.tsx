@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button"
 
 export function FeatureCardsSection() {
   return (
-    <section className="py-20 bg-white font-helvetica">
+    <section className="py-20  font-helvetica">
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-3 gap-8">
 

@@ -15,7 +15,7 @@ const items = [
 
 export default function VisitorInfo() {
   return (
-    <section className="bg-[#f2f2f2] px-6 py-24">
+    <section className=" px-6 py-24">
       <div className="mx-auto max-w-[1649px]">
 
         {/* TITLE */}

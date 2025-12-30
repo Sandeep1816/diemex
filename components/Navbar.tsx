@@ -12,14 +12,15 @@ export function Navbar() {
   return (
     <>
       {/* TOP BAR */}
-      <header className="w-full bg-[#f4f2ee] border-b">
-        <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+      <header className="w-full sticky top-0 z-50  my-4 bg-[#e5e7eb]">
+
+        <div className="p-6 h-20 flex items-center justify-between">
 
           {/* LEFT */}
            <Link href="/">
-             <div className="flex items-center gap-6">
-            <Image src="/images/diemexlogo.png" alt="MITT" width={80} height={30} />
-            <span className="text-sm text-[#0b1f33]">
+             <div className="flex items-center gap-12">
+            <Image src="/images/diemexlogo.png" alt="diemex" width={80} height={80} />
+            <span className=" text-[#0b1f33] text-lg">
               23 - 13 May 2026 - Pune
             </span>
           </div>
@@ -29,17 +30,20 @@ export function Navbar() {
         
 
           {/* CENTER NAV */}
-          <nav className="hidden lg:flex items-center gap-8 text-sm text-[#0b1f33]">
+          <nav className="hidden lg:flex items-center gap-6  text-xl text-[#0b1f33] mx-2">
             <button onClick={() => setOpen("about")} className="flex items-center gap-1">
-              About <ChevronDown size={14} />
+              About 
+              {/* <ChevronDown size={14} /> */}
             </button>
 
             <button onClick={() => setOpen("exhibit")} className="flex items-center gap-1">
-              Exhibit <ChevronDown size={14} />
+              Exhibit 
+              {/* <ChevronDown size={14} /> */}
             </button>
 
             <button onClick={() => setOpen("attend")} className="flex items-center gap-1">
-              Attend <ChevronDown size={14} />
+              Attend 
+              {/* <ChevronDown size={14} /> */}
             </button>
 
             {/* <button onClick={() => setOpen("connect")}>
@@ -48,28 +52,30 @@ export function Navbar() {
             <Link href="/connect">Connect</Link>
 
             <button onClick={() => setOpen("insights")} className="flex items-center gap-1">
-              Industry Insights <ChevronDown size={14} />
+              Industry Insights 
+              {/* <ChevronDown size={14} /> */}
             </button>
 
             <Link href="/contact-us">Contact Us</Link>
 
-            <button onClick={() => setOpen("more")} className="underline">
+            
+          </nav>
+        
+          {/* RIGHT */}
+          <div className="flex items-center gap-3 mx-6">
+            <button onClick={() => setOpen("more")} className="underline text-xl">
               More
             </button>
-          </nav>
-
-          {/* RIGHT */}
-          <div className="flex items-center gap-4">
             <Image src="/images/ru.png" alt="RU" width={28} height={18} />
-            {/* <button className="bg-red-500 text-white px-4 py-2 rounded-full text-sm">
-              Exhibit
-            </button> */}  
-            <Link href="/exhibitor-enquiry">Exhibit</Link>
-            {/* <button className="bg-red-500 text-white px-4 py-2 rounded-full text-sm">
-              Register
-            </button> */}
+            <button className="bg-red-500 text-white px-8 py-2 rounded-full text-xl">
+              <Link href="/exhibitor-enquiry">Exhibit</Link>
+            </button> 
+            
+            <button className="bg-red-500 text-white px-8 py-2 rounded-full text-xl">
+              <Link href="/visitor-registration">Register</Link>
+            </button>
 
-            <Link href="/visitor-registration">Register</Link>
+            
           </div>
         </div>
       </header>

@@ -48,7 +48,7 @@ export function PartnersSection() {
   }
 
   return (
-    <section className="bg-muted py-16 md:py-24">
+    <section className=" py-16 md:py-24">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between mb-12">
           <h2 className="text-4xl md:text-5xl font-bold text-primary">Our Partners</h2>

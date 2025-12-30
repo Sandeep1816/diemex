@@ -2,7 +2,7 @@ import SectorsGrid from "@/components/sectors/SectorsGrid";
 
 export default function SectorsPage() {
   return (
-    <main className="bg-[#f2f2f2] antialiased">
+    <main className=" antialiased">
       <div className="max-w-full mx-auto px-6 pt-24 pb-32">
 
         {/* HERO TITLE — EXACT MITT STYLE */}

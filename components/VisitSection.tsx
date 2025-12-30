@@ -19,7 +19,7 @@ export function VisitSection() {
           {/* RIGHT: Content */}
           <div className="flex flex-col space-y-12 pt-10">
             
-            <h2 className="text-[5.5rem] md:text-[6.5rem] font-extrabold tracking-tight leading-none">
+            <h2 className="text-[5.5rem] md:text-[6.5rem] font-extrabold -tracking-[0.08em] leading-none">
               VISIT
             </h2>
 

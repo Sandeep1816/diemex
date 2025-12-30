@@ -2,7 +2,7 @@ import Link from "next/link"
 
 export function TravelInfoSection() {
   return (
-    <section className="bg-gray-100 py-24 font-helvetica">
+    <section className=" py-24 font-helvetica">
       <div className="container mx-auto px-4 grid md:grid-cols-2 gap-20 items-center">
         
         {/* LEFT CONTENT */}

@@ -23,7 +23,7 @@ const events = [
 
 export default function EventsAtGlance() {
   return (
-    <section className="bg-[#f2f2f2] py-28">
+    <section className="py-28">
       {/* FIXED WIDTH + LEFT GUTTER */}
       <div className="mx-auto max-w-full px-6">
 

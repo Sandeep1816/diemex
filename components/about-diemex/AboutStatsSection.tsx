@@ -2,10 +2,10 @@ import Link from "next/link"
 
 export function AboutStatsSection() {
   return (
-    <section className="py-20 bg-gray-100">
+    <section className="py-20 ">
       <div className="container mx-auto px-4">
         {/* Section Title */}
-        <h2 className="text-8xl font-bold text-[#1a2c42] mb-12">
+        <h2 className="text-8xl font-bold text-[#1a2c42] -tracking-[0.05em] mb-12">
           About MITT
         </h2>
 

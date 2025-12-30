@@ -9,7 +9,7 @@ import WhenYouSucceedSection from "@/components/diemex-group/WhenYouSucceedSecti
 
 export default function ITEGroupPage() {
   return (
-    <main className="bg-[#f2f2f2]">
+    <main className="">
       <HeroSection />
       <AboutUsSection />
        <WhenYouSucceedSection />
