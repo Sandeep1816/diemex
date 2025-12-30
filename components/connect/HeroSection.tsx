@@ -1,7 +1,7 @@
 export default function HeroSection() {
   return (
-    <section className="w-fll p-4 pt-[140px] pb-[80px]">
-      <h1 className="font-black uppercase tracking-[-0.02em] leading-[0.92] text-[56px] md:text-[110px] lg:text-[140px]">
+    <section className="w-fll px-6 pt-[140px] pb-[80px]">
+      <h1 className="title-202 font-black text-[#0f2238]">
         MITT CONNECT
       </h1>
 

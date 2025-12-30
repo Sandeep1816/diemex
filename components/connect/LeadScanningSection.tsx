@@ -1,6 +1,6 @@
 export default function LeadScanningSection() {
   return (
-    <section className="max-w-full px-4  pb-[140px]">
+    <section className="px-6  pb-[140px]">
       <h2 className="text-[44px] font-black mb-10">
         Leadscanning: Smart, Seamless & Strategic
       </h2>

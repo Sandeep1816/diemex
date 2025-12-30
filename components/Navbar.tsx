@@ -159,9 +159,9 @@ export function Navbar() {
         sectionNumber="06"
         sectionTitle="More"
         items={[
-          { number: "01", label: "Press", href: "/press" },
-          { number: "02", label: "Media", href: "/media" },
-          { number: "03", label: "Downloads", href: "/downloads" },
+          { number: "01", label: "Conference Programme", href: "/Conference-Programme" },
+          { number: "02", label: "Media Gallery", href: "/media-gallery" },
+          // { number: "03", label: "Downloads", href: "/downloads" },
         ]}
       />
     </>
