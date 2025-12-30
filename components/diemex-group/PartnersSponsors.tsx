@@ -1,6 +1,6 @@
 export default function PartnersSponsors() {
   return (
-    <section className="bg-white py-14 px-6">
+    <section className="py-14 px-6">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-xl font-bold mb-8">
           Partners and Sponsors

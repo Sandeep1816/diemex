@@ -1,6 +1,6 @@
 export default function AboutUsSection() {
   return (
-    <section className="bg-white py-14 px-6">
+    <section className=" py-14 px-6">
       <div className="max-w-8xl mx-auto space-y-4">
 
         {/* Reduced size title */}

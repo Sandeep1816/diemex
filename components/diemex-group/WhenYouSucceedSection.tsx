@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function WhenYouSucceedSection() {
   return (
-    <section className="bg-[#f2f2f2] py-16">
+    <section className="py-16">
       <div className="max-w-8xl mx-auto px-6">
 
         {/* Heading */}

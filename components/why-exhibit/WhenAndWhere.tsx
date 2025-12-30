@@ -1,6 +1,6 @@
 export default function WhenAndWhere() {
   return (
-    <section className="bg-[#f2f2f2] antialiased">
+    <section className=" antialiased">
       <div className="max-w-7xl mx-auto px-6 py-28">
 
         {/* Section Heading */}

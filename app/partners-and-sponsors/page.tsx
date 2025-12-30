@@ -2,7 +2,7 @@ import PartnersSection from "@/components/partners/PartnersSection";
 
 export default function PartnersAndSponsorsPage() {
   return (
-    <main className="bg-[#f2f2f2]">
+    <main className="">
       <div className="max-w-7xl mx-auto px-6 py-20">
 
         <h1 className="text-5xl md:text-6xl font-extrabold text-[#0b1c2d] mb-16">

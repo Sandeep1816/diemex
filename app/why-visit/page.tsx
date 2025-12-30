@@ -14,13 +14,12 @@ import { PartnersSection } from "@/components/PartnersSection";
 
 export default function WhyVisitPage() {
   return (
-    <main className="bg-[#f3f2f1]">
+    <main className="">
       <WhyVisitHero />
       <WhereTravelConnects />
       <CountriesSection />
       <MarketSnapshot />
        <UnlockHorizons />
-
       <PostShowReportCTA />
       <WhoIsMittFor />
       <SectorsOnDisplay />

@@ -1,6 +1,6 @@
 export default function HeroSection() {
   return (
-    <section className="bg-[#f2f2f2] antialiased">
+    <section className=" antialiased">
       <div className="mx-auto max-w-full px-6 pt-28 pb-24">
 
         {/* ===== HEADLINE (ONE DIV, TWO SPANS) ===== */}

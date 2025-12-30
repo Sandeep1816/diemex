@@ -54,7 +54,7 @@ export function ConnectDetailSection() {
   const active = SECTIONS[activeIndex]
 
   return (
-    <section className="bg-white">
+    <section className="">
       <h3 className="text-[150px] text-center">
         Unmissable Features at MITT
       </h3>
