@@ -1,6 +1,6 @@
 export default function IntroSection() {
   return (
-    <section className=" max-w-full px-4  pb-[120px]">
+    <section className=" px-6  pb-[120px]">
       <div className="grid lg:grid-cols-2 gap-20 items-center">
         <div>
           <h2 className="text-[48px] font-black mb-6">

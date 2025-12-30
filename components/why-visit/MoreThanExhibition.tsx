@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function MoreThanExhibition() {
   return (
     <section className="py-[160px]">
-      <div className="max-w-[1400px] mx-auto px-6 lg:px-20 space-y-[160px]">
+      <div className="px-6">
 
         {/* SECTION 1 — CONFERENCE PROGRAMME */}
         <div className="grid lg:grid-cols-2 gap-24 items-start">

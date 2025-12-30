@@ -2,9 +2,9 @@ import Image from "next/image";
 
 export default function MatchmakingSection() {
   return (
-    <section className="max-w-full bg-[#f3f2f1] pb-[140px]">
+    <section className="px-6 bg-[#f3f2f1] pb-[140px]">
       {/* CONTAINER */}
-      <div className="max-w-full mx-auto px-4">
+      <div className="">
         
         {/* TITLE */}
         <h2 className="text-[44px] font-black text-[#0f2238] mb-12">
