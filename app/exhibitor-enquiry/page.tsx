@@ -5,7 +5,7 @@ import EnquiryForm from "@/components/ExhibitorEnquiry/EnquiryForm"
 
 export default function ExhibitorEnquiryPage() {
   return (
-    <main className="bg-[#f3f2f1]">
+    <main className="">
       <HeroSection />
 
       {/* CONTENT */}

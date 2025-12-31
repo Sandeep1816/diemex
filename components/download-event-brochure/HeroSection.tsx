@@ -4,7 +4,7 @@ export default function HeroSection() {
       <h1
         className="
           text-[#0f2238]
-          font-black
+          title-202
           uppercase
           tracking-[-0.02em]
           leading-[0.92]

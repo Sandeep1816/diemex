@@ -6,7 +6,7 @@ export default function HeroSection() {
           text-[#0f2238]
           font-black
           uppercase
-          title-201
+          title-202
         
         "
       >

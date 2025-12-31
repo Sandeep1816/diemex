@@ -1,7 +1,7 @@
 export default function HeroTitle() {
   return (
     <section className="px-6 py-32">
-      <h1 className="heading text-[90px] leading-[1] font-bold uppercase text-navy">
+      <h1 className="heading text-[90px] leading-[1] title-202 uppercase text-navy">
         Exhibitor Resource
         <br />
         Centre
