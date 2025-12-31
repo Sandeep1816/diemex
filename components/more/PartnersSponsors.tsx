@@ -15,7 +15,7 @@ export default function PartnersSponsors() {
 
         {/* Header */}
         <div className="flex items-center justify-between mb-10">
-          <h2 className="text-3xl md:text-4xl font-extrabold text-[#0b1f33]">
+          <h2 className="text-6xl font-extrabold text-[#0b1f33] mb-10">
             Partners & Sponsors
           </h2>
 

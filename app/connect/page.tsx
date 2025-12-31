@@ -10,13 +10,12 @@ import SupportSection from "@/components/connect/SupportSection"
 
 export default function ConnectPage() {
   return (
-    <main className="bg-[#f3f2f1] text-[#0f2238]">
+    <main className=" text-[#0f2238]">
       <HeroSection />
       <IntroSection />
       <WhyUseSection />
       <LeadScanningSection />
       <MatchmakingSection />
-     
       <ForWhomSection />
        <FinalCTASection />
       <GetStartedSection />

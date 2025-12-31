@@ -1,10 +1,10 @@
-export default function MainEventsIncluded() {
+export default function   MainEventsIncluded() {
   return (
     <section className="w-full py-20">
       <div className="px-6">
         
         {/* Section Title */}
-        <h2 className="text-3xl md:text-4xl font-extrabold text-[#0b1f33] mb-10">
+        <h2 className="text-6xl font-extrabold text-[#0b1f33] mb-10">
           Main Events Included :
         </h2>
 
@@ -24,8 +24,8 @@ export default function MainEventsIncluded() {
 
 function EventCard({ title }: { title: string }) {
   return (
-    <div className="bg-gradient-to-b from-[#132a45] to-[#0b1f33] p-8 min-h-[180px] flex items-start rounded-sm">
-      <h3 className="text-white text-xl font-semibold leading-snug">
+    <div className="bg-gradient-to-b from-[#132a45] to-[#0b1f33] p-15 min-h-[180px] flex items-start">
+      <h3 className="text-white text-4xl font-semibold leading-snug">
         {title}
       </h3>
     </div>

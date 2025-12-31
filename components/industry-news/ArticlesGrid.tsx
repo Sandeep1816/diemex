@@ -90,11 +90,11 @@ function ArticleCard({
       <div className="mt-4">
         <p className="text-xs text-gray-500">{date}</p>
 
-        <h3 className="mt-2 text-[#0b1f33] font-semibold text-base leading-snug">
+        <h3 className="mt-2 text-[#0b1f33] font-bold text-3xl  leading-snug">
           {title}
         </h3>
 
-        <p className="mt-2 text-sm text-gray-600 leading-relaxed line-clamp-3">
+        <p className="mt-2 text-xl text-gray-600 leading-relaxed line-clamp-3">
           {description}
         </p>
       </div>

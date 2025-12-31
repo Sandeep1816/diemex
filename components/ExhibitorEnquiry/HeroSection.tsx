@@ -12,7 +12,7 @@ export default function HeroSection() {
         Exhibitor Enquiry
       </h1>
 
-      <p className="mt-10 max-w-[750px] text-[#0f2238] text-[16px] leading-[1.6]">
+      <p className="mt-10 max-w-[800px] text-[#0f2238] text-xl leading-[1.6]">
         We are excited that you are interested in participating at MITT 2026.
         Please leave your details below, and one of our sales representatives
         will be in touch soon.

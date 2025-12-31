@@ -1,7 +1,7 @@
 export default function EnquiryForm() {
   return (
     <aside className="bg-white border border-gray-300 p-8 shadow-sm max-w-full w-full">
-    <h3 className="text-[#E60029] font-bold text-xl mb-6">
+    <h3 className="text-[#E60029] font-extrabold text-4xl mb-6">
   Enquire to Exhibit at MITT
 </h3>
 

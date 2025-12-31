@@ -1,6 +1,6 @@
 export default function SupportSection() {
   return (
-    <section className="px-6 bg-[#f3f2f1] py-[160px]">
+    <section className="px-6 py-[160px]">
       <div className="">
         
         <h2 className="text-[48px] font-black text-[#0f2238] mb-4">

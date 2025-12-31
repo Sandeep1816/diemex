@@ -11,10 +11,8 @@ export default function HeroSection() {
                     <span className="text-red-500">PROGRAMME</span>
                 </h1>
 
-
-
                 {/* Description */}
-                <p className="mt-6 max-w-3xl text-gray-700 text-sm md:text-base leading-relaxed">
+                <p className="mt-6 max-w-3xl text-gray-700 text-2xl md:text-base leading-relaxed ">
                     The <strong>MITT 2025 Conference Programme</strong> offered a{" "}
                     <strong>dynamic three-day agenda</strong> with{" "}
                     <strong>30+ sessions</strong>, including expert panels, presentations,
@@ -22,16 +20,15 @@ export default function HeroSection() {
                 </p>
 
                 {/* Image */}
-                <div className="relative mt-10 w-full h-[300px] md:h-[420px] rounded-lg overflow-hidden shadow-lg">
+                <div className="relative mt-10 w-full h-[300px] md:h-[420px] overflow-hidden shadow-lg">
                     <Image
-                        src="/images/conference-programme.jpg"
+                        src="/bali-indonesia-temple-scenic.jpg"
                         alt="Conference Programme"
                         fill
                         className="object-cover"
                         priority
                     />
                 </div>
-
             </div>
         </section>
     )

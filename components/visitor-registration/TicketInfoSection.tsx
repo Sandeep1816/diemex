@@ -1,9 +1,9 @@
 export default function TicketInfoSection() {
   return (
-    <section className="w-full p-4  pb-[120px]">
-      <div className="max-w-[1400px] mx-auto px-4">
+    <section className="w-full   pb-[120px] px-6 text-xl">
+      <div className=" mx-auto ">
 
-        <p className="text-[18px] font-medium text-[#0f2238] mt-20 mb-6">
+        <p className="text-[18px] font-semibold text-[#0f2238] mt-20 mb-6">
           Note:
         </p>
 

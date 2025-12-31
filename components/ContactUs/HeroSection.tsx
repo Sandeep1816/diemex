@@ -14,22 +14,22 @@ export default function HeroSection() {
       </h1>
 
       <div className="mt-10 max-w-[720px] text-[#0f2238] text-[16px] leading-[1.7]">
-        <p className="mb-4">
+        <p className="text-xl">
           Have any questions or need assistance? We're here to help!
         </p>
 
         <ul className="space-y-1">
-          <li><strong>Phone Number:</strong> +7-(495)-799-55-85</li>
+          <li><strong className="text-xl">Phone Number:</strong> +7-(495)-799-55-85</li>
           <li>
-            <strong>Visitor support:</strong>
+            <strong className="text-xl">Visitor support:</strong>
             <ul className="ml-4 list-disc">
-              <li>+7-(495)-799-55-85</li>
-              <li>visitors.registration@ite.group</li>
+              <li className="text-xl">+7-(495)-799-55-85</li>
+              <li className="text-xl">visitors.registration@ite.group</li>
             </ul>
           </li>
-          <li><strong>Email:</strong> mitt@ite.group</li>
-          <li>
-            <strong>Venue:</strong> Moscow region, Krasnogorsk,
+          <li className="text-xl"><strong className="text-xl">Email:</strong> mitt@ite.group</li>
+          <li className="text-xl">
+            <strong className="text-xl">Venue:</strong> Moscow region, Krasnogorsk,
             Mezhdunarodnaya st. 16, 18, 20. Crocus Expo IEC.
           </li>
         </ul>

@@ -1,7 +1,7 @@
 export default function GetStartedSection() {
   return (
     <section className="px-6 pb-[140px]">
-      <h2 className="text-[44px] font-black mb-10">
+      <h2 className="text-[44px] font-black my-20 ">
         How to Get Started
       </h2>
 

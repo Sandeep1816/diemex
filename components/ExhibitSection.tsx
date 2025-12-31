@@ -17,7 +17,7 @@ export function ExhibitSection() {
               MITT: Where Opportunities Take Flight
             </p>
 
-            <p className="text-lg leading-relaxed text-white/80 max-w-xl">
+            <p className="text-2xl leading-relaxed max-w-3xl">
               Join the 32nd edition of the leading travel and hospitality
               exhibition in Eurasia. MITT 2026 connects you directly with
               decision-makers seeking new destinations, products, and
@@ -27,7 +27,7 @@ export function ExhibitSection() {
             </p>
 
             {/* CTA */}
-            <div className="pt-10 border-t border-white/30 max-w-2xl flex items-center justify-between">
+            <div className="pt-10 border-b border-white/30 max-w-3xl font-bold font-stretch-75% flex items-center justify-between">
               <Link
                 href="#"
                 className="group inline-flex items-center gap-3 uppercase text-sm tracking-widest"

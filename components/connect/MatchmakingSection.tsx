@@ -2,12 +2,12 @@ import Image from "next/image";
 
 export default function MatchmakingSection() {
   return (
-    <section className="px-6 bg-[#f3f2f1] pb-[140px]">
+    <section className="px-6 pb-[140px] mt-10">
       {/* CONTAINER */}
       <div className="">
         
         {/* TITLE */}
-        <h2 className="text-[44px] font-black text-[#0f2238] mb-12">
+        <h2 className="text-6xl font-bold text-[#0f2238] mb-20">
           Matchmaking Service: Efficient, Personalised, Connected
         </h2>
 
@@ -35,13 +35,13 @@ export default function MatchmakingSection() {
   {/* INNER CONTENT WRAPPER */}
   <div className="max-w-full p-6">
     
-    <h3 className="text-[30px] font-black leading-snug mb-10">
+    <h3 className="text-4xl font-semibold leading-snug mb-10">
       MITT Connect now offers Matchmaking: A smart recommendation
       system based on exhibition visitors, tailored for your
       company's leads.
     </h3>
 
-    <ol className="space-y-6 text-[16px] leading-relaxed list-decimal list-outside pl-6 mb-10">
+    <ol className="space-y-6 text-xl leading-relaxed list-decimal list-outside pl-6 mb-10">
       <li>
         <strong>Get Matched with Key Decision-Makers:</strong>{" "}
         Meet top buyers, tour operators, travel agents, and
@@ -66,7 +66,7 @@ export default function MatchmakingSection() {
       </li>
     </ol>
 
-    <p className="text-[14px] text-gray-300 max-w-[520px]">
+    <p className="text-xl text-gray-300 ">
       Matchmaking is free for all exhibitors and visitors on both
       desktop and mobile versions of MITT Connect.
     </p>
@@ -74,7 +74,7 @@ export default function MatchmakingSection() {
 
   {/* CTA */}
   <div className="p-6 mt-12 w-full">
-    <button className="w-full bg-[#ff3b30] text-white py-4 font-black uppercase tracking-wide">
+    <button className="w-full bg-[#ff3b30] text-white py-4 font-bold uppercase text-3xl tracking-tighter underline">
       Start Connecting
     </button>
   </div>

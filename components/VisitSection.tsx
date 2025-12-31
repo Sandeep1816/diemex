@@ -24,11 +24,11 @@ export function VisitSection() {
             </h2>
 
             <div className="space-y-6 max-w-xl">
-              <p className="text-lg font-semibold">
+              <p className="text-2xl font-semibold">
                 Unlock New Horizons at MITT 2026
               </p>
 
-              <p className="text-lg leading-relaxed text-white/80">
+              <p className="text-2xl leading-relaxed text-white/80">
                 Discover destinations, forge long-lasting partnerships, and
                 explore innovative travel solutions all in one place. MITT is
                 your gateway to the world of tourism, where airlines, hotels,

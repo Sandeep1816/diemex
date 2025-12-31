@@ -3,7 +3,7 @@ import ContactForm from "@/components/ContactUs/ContactForm"
 
 export default function ContactUsPage() {
   return (
-    <main className="bg-[#f3f2f1]">
+    <main className="">
       {/* HERO */}
       <HeroSection />
 

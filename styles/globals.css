@@ -291,6 +291,16 @@
   color: #10223B;
   white-space: nowrap;          /* never wrap */
 }
+.title-44 {
+ font-family: "Bebas Neue", "Etrusco Now Condensed", ui-sans-serif, system-ui, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.01em;
+
+  color: #10223B;
+  white-space: nowrap;          /* never wrap */
+}
 
 .title-202 {
   /* Fonts */
@@ -462,4 +472,8 @@
 
 .animate-scroll {
   animation: scroll 25s linear infinite;
+}
+
+.font-semibold {
+    font-weight: 600;
 }
