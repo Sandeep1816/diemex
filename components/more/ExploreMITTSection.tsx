@@ -12,7 +12,7 @@ export default function ExploreMITTSection() {
         </h1>
 
         {/* Description */}
-        <p className="mt-8 max-w-4xl text-sm md:text-base text-[#0b1f33] leading-relaxed">
+        <p className="mt-8 text-xl text-semibold text-[#0b1f33] leading-relaxed">
           Discover the essence of MITT through our curated gallery, featuring
           moments from the opening ceremony, VIP tours, awards, exhibition
           showcases, and dynamic conference sessions.

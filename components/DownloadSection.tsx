@@ -6,21 +6,21 @@ export function DownloadSection() {
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-2 gap-8 lg:gap-16 items-center max-w-full mx-auto">
           <div className="space-y-6">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary text-balance">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold fithting-leading-tight text-[#0b1f33]">
               Want to Learn More About MITT?
             </h2>
 
-            <p className="text-base md:text-lg leading-relaxed text-foreground">
+            <p className="text-2xl">
               Download the Event Brochure to discover who you'll meet, explore the key sectors on display, and learn how
               MITT can help you tap into Eurasia's growing tourism market and build valuable partnerships.
             </p>
 
-            <Button
-              variant="default"
-              className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-6 text-base font-bold uppercase tracking-wide"
+            <button
+              // variant="default"
+              className="bg-primary text-white  uppercase tracking-tighter text-xl  font-extrabold px-4 py-4 underline"
             >
               Download Now
-            </Button>
+            </button>
           </div>
 
           <div className="relative flex justify-center items-center">

@@ -9,7 +9,7 @@ import ExploreMoscow from "@/components/why-visit/ExploreMoscow";
 import { CountriesSection } from "@/components/CountriesSection";
 import MarketSnapshot from "@/components/why-exhibit/MarketSnapshot";
 import UnlockHorizons from "@/components/why-exhibit/UnlockHorizons";
-import PartnersSponsors from "@/components/diemex-group/PartnersSponsors";
+// import PartnersSponsors from "@/components/diemex-group/PartnersSponsors";
 import { PartnersSection } from "@/components/PartnersSection";
 
 export default function WhyVisitPage() {

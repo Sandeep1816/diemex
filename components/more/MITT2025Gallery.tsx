@@ -36,7 +36,7 @@ export default function MITTGallery() {
           <div key={section.year}>
             
             {/* Year Heading */}
-            <h2 className="text-4xl md:text-5xl font-extrabold text-[#0b1f33]">
+            <h2 className="text-5xl md:text-6xl font-extrabold text-[#0b1f33]">
               MITT {section.year}
             </h2>
 
@@ -83,7 +83,7 @@ function GalleryCard({
           className="object-cover transition-transform duration-500 group-hover:scale-105"
         />
       </div>
-      <p className="mt-4 text-[#0b1f33] font-semibold text-base">
+      <p className="mt-4 text-[#0b1f33] font-semibold text-semibold text-xl">
         {title}
       </p>
     </div>

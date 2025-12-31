@@ -5,12 +5,12 @@ export default function HeroSection() {
         MITT CONNECT
       </h1>
 
-      <p className="mt-10 max-w-[820px] text-[18px] leading-relaxed">
+      <p className=" text-[18px] leading-relaxed">
         A dedicated digital platform to expand your business's reach and
         position your products in front of targeted buyers.
       </p>
 
-      <div className="mt-15 bg-[#E60029] text-white py-6 text-center font-black text-[28px] uppercase underline">
+      <div className="mt-15 bg-[#E60029] text-white py-6 text-center font-black text-5xl uppercase underline tracking-tight-[8px] cursor-pointer">
         Join Mitt Connect
       </div>
     </section>

@@ -33,7 +33,7 @@ export function HeroSection() {
               font-black
               text-primary
               title-202
-              text-6xl
+              
             "
           >
             {/* Mobile / Tablet */}

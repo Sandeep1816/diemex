@@ -13,7 +13,7 @@ export default function ContactForm() {
         shadow-sm
       "
     >
-      <h2 className="text-[#E60029] text-2xl font-bold mb-6">
+      <h2 className="text-[#E60029] text-4xl font-bold mb-6">
         Contact Us
       </h2>
 

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function WhyUseSection() {
   return (
-    <section className="px-6 pb-[140px] bg-[#f3f2f1]">
+    <section className="px-6 pb-[140px]">
       {/* Title */}
       <h2 className="title-90 font-black text-[#0f2238] mb-14">
         Why Use MITT Connect?
@@ -26,7 +26,7 @@ export default function WhyUseSection() {
         {/* RIGHT CONTENT BOX */}
         <div className="bg-[#0f2238] text-white px-4 py-16 flex flex-col justify-center align-center">
           
-          <h3 className="text-[40px] leading-tight font-black mb-10">
+          <h3 className="text-5xl leading-tight font-semibold mb-10">
             Reach more people and
             <br />
             showcase your offerings
@@ -34,7 +34,7 @@ export default function WhyUseSection() {
             beyond the exhibition floor.
           </h3>
 
-          <div className="space-y-6 text-[16px] leading-relaxed">
+          <div className="space-y-6 text-xl leading-relaxed">
             <p>
               <strong>More Relevant Meetings:</strong>{" "}
               Get recommended buyers and partners based on your product

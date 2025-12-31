@@ -7,7 +7,6 @@ export default function HeroSection() {
           font-black
           uppercase
           title-202
-        
         "
       >
         Exhibitor Promotion

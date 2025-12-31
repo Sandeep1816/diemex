@@ -28,7 +28,7 @@ export function StatsSection() {
                 opportunities take flight, and the future of travel is envisioned.
               </p>
 
-              <p className="font-semibold text-lg md:text-xl text-primary">
+              <p className=" text-lg md:text-xl text-primary">
                 Welcome to the heart of global tourism innovation, welcome to MITT.
               </p>
             </div>
