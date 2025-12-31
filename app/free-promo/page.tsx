@@ -5,7 +5,7 @@ import EmailSignatureSection from "@/components/FreePromoPage/EmailSignatureSect
 
 export default function FreePromo() {
   return (
-    <main className="bg-[#f3f2f1]">
+    <main className="">
       <HeroSection />   
       <PromoCodeSection />
       <PromoCardsSection />

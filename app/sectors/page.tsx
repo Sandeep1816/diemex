@@ -12,7 +12,7 @@ export default function SectorsPage() {
         >
           <span
             className="
-              title-201
+              title-202
              
               whitespace-nowrap
               leading-none

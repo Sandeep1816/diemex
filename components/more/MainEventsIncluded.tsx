@@ -17,7 +17,6 @@ export default function MainEventsIncluded() {
           <EventCard title="MITT MICE" />
           <EventCard title="Special Events" />
         </div>
-
       </div>
     </section>
   )

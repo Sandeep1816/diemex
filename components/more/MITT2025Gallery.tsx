@@ -4,25 +4,25 @@ const gallerySections = [
   {
     year: "2025",
     images: [
-      { src: "/gallery/2025-1.jpg", title: "MITT 2025" },
-      { src: "/gallery/2025-2.jpg", title: "Conference Programme 2025" },
-      { src: "/gallery/2025-3.jpg", title: "MITT Travel Start 2025" },
+      { src: "/bali-indonesia-temple-scenic.jpg", title: "MITT 2025" },
+      { src: "/bali-indonesia-temple-scenic.jpg", title: "Conference Programme 2025" },
+      { src: "/bali-indonesia-temple-scenic.jpg", title: "MITT Travel Start 2025" },
     ],
   },
   {
     year: "2024",
     images: [
-      { src: "/gallery/2024-1.jpg", title: "MITT 2024" },
-      { src: "/gallery/2024-2.jpg", title: "Conference Programme 2024" },
-      { src: "/gallery/2024-3.jpg", title: "MITT Travel Start 2024" },
+      { src: "/bali-indonesia-temple-scenic.jpg", title: "MITT 2024" },
+      { src: "/bali-indonesia-temple-scenic.jpg", title: "Conference Programme 2024" },
+      { src: "/bali-indonesia-temple-scenic.jpg", title: "MITT Travel Start 2024" },
     ],
   },
   {
     year: "2023",
     images: [
-      { src: "/gallery/2023-1.jpg", title: "MITT 2023" },
-      { src: "/gallery/2023-2.jpg", title: "Conference Programme 2023" },
-      { src: "/gallery/2023-3.jpg", title: "MITT Travel Start 2023" },
+      { src: "/bali-indonesia-temple-scenic.jpg", title: "MITT 2023" },
+      { src: "/bali-indonesia-temple-scenic.jpg", title: "Conference Programme 2023" },
+      { src: "/bali-indonesia-temple-scenic.jpg", title: "MITT Travel Start 2023" },
     ],
   },
 ]

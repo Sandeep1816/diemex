@@ -17,7 +17,7 @@ import VisitorSection from "@/components/VisitorSection"
 
 export default function Page() {
   return (
-    <main className="min-h-screen ">
+    <main className="">
       {/* <Navbar /> */}
       <HeroSection />
        {/* <StatsSection /> */}

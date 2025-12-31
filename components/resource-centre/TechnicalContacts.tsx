@@ -27,7 +27,7 @@ const contacts = [
 
 export default function TechnicalContacts() {
   return (
-    <section className="bg-[#f4f3f1] px-6 py-24">
+    <section className=" px-6 py-24">
       <div className="max-w-8xl mx-auto">
         {/* Heading */}
         <h2 className="text-[40px] font-bold text-[#0e243f] mb-14">

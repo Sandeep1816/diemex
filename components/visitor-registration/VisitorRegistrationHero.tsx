@@ -1,9 +1,9 @@
 export default function VisitorRegistrationHero() {
   return (
-    <section className="w-full bg-[#f3f2f1] pt-[120px] pb-[100px]">
+    <section className="w-full pt-[120px] pb-[100px]">
       <div className="max-w-full mx-auto px-4">
         
-        <h1 className="title-201 font-black text-[#0f2238] mb-10">
+        <h1 className="title-202 font-black text-[#0f2238] mb-10">
           VISITOR REGISTRATION
         </h1>
 

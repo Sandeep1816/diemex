@@ -1,6 +1,6 @@
 export default function VisitorEmailForm() {
   return (
-    <section className="w-full bg-[#f3f2f1] pb-[160px]">
+    <section className="w-full pb-[160px]">
       <div className="max-w-full mx-auto px-4">
 
         <p className="text-[18px] text-[#0f2238] max-w-[1000px] mb-6">

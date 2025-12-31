@@ -3,86 +3,104 @@
 import { useState } from "react"
 import Image from "next/image"
 import Link from "next/link"
-import { ChevronDown } from "lucide-react"
+import { Menu, X } from "lucide-react"
 import { MegaMenu } from "@/components/about-mega-menu"
 
 export function Navbar() {
   const [open, setOpen] = useState<null | string>(null)
+  const [mobileOpen, setMobileOpen] = useState(false)
 
   return (
     <>
-      {/* TOP BAR */}
-      <header className="w-full sticky top-0 z-50  my-4 bg-[#e5e7eb]">
-
-        <div className="p-6 h-20 flex items-center justify-between">
+      {/* HEADER */}
+      <header className="w-full sticky top-0 z-50 bg-[#e5e7eb]">
+        <div className="px-6 h-20 flex items-center justify-between">
 
           {/* LEFT */}
-           <Link href="/">
-             <div className="flex items-center gap-12">
-            <Image src="/images/diemexlogo.png" alt="diemex" width={80} height={80} />
-            <span className=" text-[#0b1f33] text-lg">
+          <Link href="/" className="flex items-center gap-4">
+            <Image
+              src="/images/diemexlogo.png"
+              alt="diemex"
+              width={70}
+              height={70}
+            />
+            <span className="hidden md:block text-[#0b1f33] text-lg">
               23 - 13 May 2026 - Pune
             </span>
-          </div>
-           
-           </Link>
-          
-        
+          </Link>
 
-          {/* CENTER NAV */}
-          <nav className="hidden lg:flex items-center gap-6  text-xl text-[#0b1f33] mx-2">
-            <button onClick={() => setOpen("about")} className="flex items-center gap-1">
-              About 
-              {/* <ChevronDown size={14} /> */}
-            </button>
-
-            <button onClick={() => setOpen("exhibit")} className="flex items-center gap-1">
-              Exhibit 
-              {/* <ChevronDown size={14} /> */}
-            </button>
-
-            <button onClick={() => setOpen("attend")} className="flex items-center gap-1">
-              Attend 
-              {/* <ChevronDown size={14} /> */}
-            </button>
-
-            {/* <button onClick={() => setOpen("connect")}>
-              Connect
-            </button> */}
+          {/* DESKTOP NAV */}
+          <nav className="hidden lg:flex items-center gap-6 text-xl text-[#0b1f33]">
+            <button onClick={() => setOpen("about")}>About</button>
+            <button onClick={() => setOpen("exhibit")}>Exhibit</button>
+            <button onClick={() => setOpen("attend")}>Attend</button>
             <Link href="/connect">Connect</Link>
-
-            <button onClick={() => setOpen("insights")} className="flex items-center gap-1">
-              Industry Insights 
-              {/* <ChevronDown size={14} /> */}
-            </button>
-
+            <button onClick={() => setOpen("insights")}>Industry Insights</button>
             <Link href="/contact-us">Contact Us</Link>
-
-            
           </nav>
-        
-          {/* RIGHT */}
-          <div className="flex items-center gap-3 mx-6">
+
+          {/* DESKTOP RIGHT */}
+          <div className="hidden lg:flex items-center gap-4">
             <button onClick={() => setOpen("more")} className="underline text-xl">
               More
             </button>
-            <Image src="/images/ru.png" alt="RU" width={28} height={18} />
-            <button className="bg-red-500 text-white px-8 py-2 rounded-full text-xl">
-              <Link href="/exhibitor-enquiry">Exhibit</Link>
-            </button> 
-            
-            <button className="bg-red-500 text-white px-8 py-2 rounded-full text-xl">
-              <Link href="/visitor-registration">Register</Link>
-            </button>
 
-            
+            <Image src="/images/ru.png" alt="RU" width={26} height={18} />
+
+            <Link
+              href="/exhibitor-enquiry"
+              className="bg-red-500 text-white px-6 py-2 rounded-full text-lg"
+            >
+              Exhibit
+            </Link>
+
+            <Link
+              href="/visitor-registration"
+              className="bg-red-500 text-white px-6 py-2 rounded-full text-lg"
+            >
+              Register
+            </Link>
           </div>
+
+          {/* MOBILE MENU BUTTON */}
+          <button
+            className="lg:hidden"
+            onClick={() => setMobileOpen(!mobileOpen)}
+          >
+            {mobileOpen ? <X size={28} /> : <Menu size={28} />}
+          </button>
         </div>
+
+        {/* MOBILE MENU */}
+        {mobileOpen && (
+          <div className="lg:hidden bg-white border-t px-6 py-6 space-y-4 text-lg">
+            <Link href="/about-diemex" onClick={() => setMobileOpen(false)}>About</Link>
+            <Link href="/why-exhibit" onClick={() => setMobileOpen(false)}>Exhibit</Link>
+            <Link href="/why-visit" onClick={() => setMobileOpen(false)}>Attend</Link>
+            <Link href="/connect" onClick={() => setMobileOpen(false)}>Connect</Link>
+            <Link href="/industry-news" onClick={() => setMobileOpen(false)}>Industry Insights</Link>
+            <Link href="/contact-us" onClick={() => setMobileOpen(false)}>Contact Us</Link>
+
+            <div className="pt-4 flex gap-3">
+              <Link
+                href="/exhibitor-enquiry"
+                className="flex-1 bg-red-500 text-white text-center py-2 rounded-full"
+              >
+                Exhibit
+              </Link>
+              <Link
+                href="/visitor-registration"
+                className="flex-1 bg-red-500 text-white text-center py-2 rounded-full"
+              >
+                Register
+              </Link>
+            </div>
+          </div>
+        )}
       </header>
 
-      {/* ===== MEGA MENUS ===== */}
+      {/* ===== MEGA MENUS (DESKTOP ONLY) ===== */}
 
-      {/* ABOUT */}
       <MegaMenu
         isOpen={open === "about"}
         onClose={() => setOpen(null)}
@@ -90,12 +108,11 @@ export function Navbar() {
         sectionTitle="About"
         items={[
           { number: "01", label: "About MITT", href: "/about-diemex" },
-          { number: "02", label: "About ITE Group", href: "about/about-diemexgroup" },
+          { number: "02", label: "About ITE Group", href: "/about/about-diemexgroup" },
           { number: "03", label: "Partners and Sponsors", href: "/partners-and-sponsors" },
         ]}
       />
 
-      {/* EXHIBIT */}
       <MegaMenu
         isOpen={open === "exhibit"}
         onClose={() => setOpen(null)}
@@ -108,12 +125,9 @@ export function Navbar() {
           { number: "04", label: "Exhibitor Resource Centre", href: "/exhibitor-resource-centre" },
           { number: "05", label: "Exhibitor Promotion", href: "/free-promo" },
           { number: "06", label: "Enquire to Exhibit", href: "/exhibitor-enquiry" },
-          { number: "07", label: "Download Event Brochure", href: "/download-event-brochure" },
-          { number: "08", label: "Download Post Show Report 2025", href: "/exhibit/download-post-show-report" },
         ]}
       />
 
-      {/* ATTEND */}
       <MegaMenu
         isOpen={open === "attend"}
         onClose={() => setOpen(null)}
@@ -127,19 +141,6 @@ export function Navbar() {
         ]}
       />
 
-      {/* CONNECT (simple links, no mega layout in original) */}
-      <MegaMenu
-        isOpen={open === "connect"}
-        onClose={() => setOpen(null)}
-        sectionNumber="04"
-        sectionTitle="Connect"
-        items={[
-          { number: "01", label: "Networking", href: "/networking" },
-          { number: "02", label: "Hosted Buyers", href: "/hosted-buyers" },
-        ]}
-      />
-
-      {/* INDUSTRY INSIGHTS */}
       <MegaMenu
         isOpen={open === "insights"}
         onClose={() => setOpen(null)}
@@ -147,12 +148,10 @@ export function Navbar() {
         sectionTitle="Industry Insights"
         items={[
           { number: "01", label: "Industry News", href: "/industry-news" },
-          { number: "02", label: "Download Post Show Report", href: "/exhibit/download-post-show-report" },
-          { number: "03", label: "Download Event Brochure", href: "/download-event-brochure" },
+          { number: "02", label: "Download Event Brochure", href: "/download-event-brochure" },
         ]}
       />
 
-      {/* MORE */}
       <MegaMenu
         isOpen={open === "more"}
         onClose={() => setOpen(null)}
@@ -161,7 +160,6 @@ export function Navbar() {
         items={[
           { number: "01", label: "Conference Programme", href: "/Conference-Programme" },
           { number: "02", label: "Media Gallery", href: "/media-gallery" },
-          // { number: "03", label: "Downloads", href: "/downloads" },
         ]}
       />
     </>
