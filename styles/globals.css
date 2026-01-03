@@ -80,7 +80,7 @@ p {
   font-size: 1.125rem;
   line-height: 1.75rem;
   font-weight: 400;
-  color: #10223b;
+  /* color: #10223b; */
 
   -webkit-font-smoothing: antialiased;
 }

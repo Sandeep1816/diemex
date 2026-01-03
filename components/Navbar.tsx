@@ -19,7 +19,7 @@ export function Navbar() {
           {/* LEFT */}
           <Link href="/" className="flex items-center gap-4">
             <Image
-              src="/images/diemexlogo.png"
+              src="/images/logo.png"
               alt="diemex"
               width={70}
               height={70}
