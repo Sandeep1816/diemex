@@ -1,0 +1,16 @@
+/* Display / Hero */
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("/fonts/BebasNeue-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+
+/* Body (MITT style) */
+@font-face {
+  font-family: "Helvetica MITT";
+  src: local("Helvetica Neue"), local("Helvetica"),
+       local("Arial");
+  font-weight: 400;
+  font-display: swap;
+}

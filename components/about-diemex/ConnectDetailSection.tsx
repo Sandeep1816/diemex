@@ -63,7 +63,7 @@ export function ConnectDetailSection() {
         MITT is more than an exhibition—it's a dynamic platform packed with features.
       </div>
 
-      <div className="container mx-auto px-6 grid md:grid-cols-2 gap-16">
+      <div className="layout grid md:grid-cols-2 gap-16">
         {/* LEFT — STICKY TEXT */}
         <div className="sticky top-32 h-fit py-24">
           <h2 className="text-[44px] font-bold text-[#1a2c42] mb-6">

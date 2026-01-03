@@ -3,7 +3,7 @@ import Link from "next/link"
 export function QuickNavigationSection() {
   return (
     <section className="py-24  font-helvetica">
-      <div className="container mx-auto px-6">
+      <div className="layout">
         
         {/* SECTION TITLE */}
         <h2 className="text-[44px] font-bold text-[#1a2c42] mb-16">

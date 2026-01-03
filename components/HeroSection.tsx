@@ -23,72 +23,41 @@ export function HeroSection() {
   }, [])
 
   return (
-    <section className=" py-16 md:py-20 overflow-hidden">
-      <div className="container mx-auto px-6">
-        {/* TEXT */}
-        <div className="w-full">
-          <h1
-            className="
-              w-full
-              font-black
-              text-primary
-              title-202
-              
-            "
-          >
-            {/* Mobile / Tablet */}
-            <span className="block lg:hidden">
-              WHERE DESTINATIONS
-            </span>
-            <span className="block lg:hidden">
-              MEET
-            </span>
+<section className="px-0 py-16 md:py-20 overflow-hidden">
+  {/* TEXT — SAME AS NAVBAR */}
+  <div className="">
+    <h1 className="title-202">
+      WHERE DESTINATIONS MEET
+    </h1>
 
-            {/* Desktop */}
-            <span className="title-202">
-              WHERE DESTINATIONS MEET
-            </span>
-          </h1>
+    <p className="mt-4 subheading">
+      The leading B2B exhibition for the travel, tourism and hospitality industry in CIS
+      <br />
+      11–13 March 2026 | Pavilion 1, Crocus Expo | Moscow
+    </p>
+  </div>
 
-          <p className="mt-4 subheading">
-            The leading B2B exhibition for the travel, tourism and hospitality industry in CIS
-           <br /> 11–13 March 2026 | Pavilion 1, Crocus Expo | Moscow
-          </p>
-
-          
-            
-          
-        </div>
-
-        {/* HERO IMAGE SLIDER */}
-        <div className="mt-10 relative h-[280px] md:h-[420px] lg:h-[520px] overflow-hidden">
-          {images.map((src, index) => {
-            const isActive = index === current
-
-            return (
-              <div
-                key={src}
-                className={`absolute inset-0 transition-all duration-1000 ease-in-out
-                  ${
-                    isActive
-                      ? "opacity-100 translate-x-0 scale-100 z-10"
-                      : direction === "left"
-                      ? "opacity-0 -translate-x-6 scale-[1.02] z-0"
-                      : "opacity-0 translate-x-6 scale-[1.02] z-0"
-                  }`}
-              >
-                <Image
-                  src={src}
-                  alt="Travel exhibition"
-                  fill
-                  className="object-cover"
-                  priority={index === 0}
-                />
-              </div>
-            )
-          })}
-        </div>
+  {/* IMAGE — FULL WIDTH */}
+  <div className="mt-10 relative h-[280px] md:h-[420px] lg:h-[520px] w-full">
+    {images.map((src, index) => (
+      <div
+        key={src}
+        className={`absolute inset-0 transition-opacity duration-1000 ${
+          index === current ? "opacity-100" : "opacity-0"
+        }`}
+      >
+        <Image
+          src={src}
+          alt="Travel exhibition"
+          fill
+          className="object-cover"
+          priority={index === 0}
+        />
       </div>
-    </section>
+    ))}
+  </div>
+</section>
+
+
   )
 }

@@ -1,18 +1,15 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { Geist, Geist_Mono, Bebas_Neue } from "next/font/google"
+import { Bebas_Neue } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import "@/styles/globals.css"
 import { Navbar } from "@/components/Navbar"
 import { MainFooter } from "@/components/MainFooter"
 
-/* Fonts */
-const geist = Geist({ subsets: ["latin"], variable: "--font-geist" })
-const geistMono = Geist_Mono({ subsets: ["latin"], variable: "--font-geist-mono" })
-
+/* Display font only */
 const bebasNeue = Bebas_Neue({
   subsets: ["latin"],
-  weight: "400", // Bebas Neue only has 400
+  weight: "400",
   variable: "--font-bebas",
 })
 
@@ -28,16 +25,17 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html
-      lang="en"
-      className={`${geist.variable} ${geistMono.variable} ${bebasNeue.variable}`}
-    >
-      <Navbar />
-      <body className="font-sans antialiased bg-[#e5e7eb]">
-        {children}
+    <html lang="en" className={bebasNeue.variable}>
+      <body className="antialiased bg-[#e5e7eb] overflow-x-hidden">
+        <Navbar />
+
+        <main className="site-wrapper">
+          {children}
+        </main>
+
+        <MainFooter />
         <Analytics />
       </body>
-      <MainFooter />
     </html>
   )
 }

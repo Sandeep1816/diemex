@@ -6,7 +6,7 @@ export function DownloadSection() {
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-2 gap-8 lg:gap-16 items-center max-w-full mx-auto">
           <div className="space-y-6">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold fithting-leading-tight text-[#0b1f33]">
+            <h2 className="text-4xl md:text-4xl lg:text-5xl font-bold fithting-leading-tight text-[#0b1f33]">
               Want to Learn More About MITT?
             </h2>
 
@@ -17,7 +17,7 @@ export function DownloadSection() {
 
             <button
               // variant="default"
-              className="bg-primary text-white  uppercase tracking-tighter text-xl  font-extrabold px-4 py-4 underline"
+              className="bg-[#10223B] text-white  uppercase tracking-tighter text-xl  font-extrabold px-4 py-4 underline"
             >
               Download Now
             </button>
