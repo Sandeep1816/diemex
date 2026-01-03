@@ -35,29 +35,42 @@ export function CapturedMomentsSection() {
     setCurrentIndex((prev) => (prev - 1 + maxIndex) % maxIndex)
   }
 
-  return (  
-    <section className=" py-16 md:py-24">
-      <div className="container mx-auto px-4">
-        {/* Header */}
-        <div className="flex items-center justify-between mb-12">
-          <h2 className="text-4xl md:text-5xl font-bold text-primary">
+  return (
+    <section className="bg-[#e5e7eb] py-24">
+      {/* MITT container */}
+      <div className="mx-auto max-w-[1700px] ">
+
+        {/* HEADER */}
+        <div className="flex items-center justify-between mb-20">
+          <h2 className="text-[72px] leading-[1.1] font-bold text-[#0b1f33]">
             Captured Moments: The Heart of Diemex
           </h2>
 
-          <div className="flex gap-2">
-            <Button variant="outline" size="icon" onClick={prevSlide}>
-              <ChevronLeft className="h-5 w-5" />
+          <div className="flex gap-4">
+            <Button
+              variant="ghost"
+              size="icon"
+              onClick={prevSlide}
+              className="h-14 w-14 rounded-full bg-white text-gray-400 hover:text-gray-700"
+            >
+              <ChevronLeft className="h-6 w-6" />
             </Button>
-            <Button variant="outline" size="icon" onClick={nextSlide}>
-              <ChevronRight className="h-5 w-5" />
+
+            <Button
+              variant="ghost"
+              size="icon"
+              onClick={nextSlide}
+              className="h-14 w-14 rounded-full bg-white text-gray-400 hover:text-gray-700"
+            >
+              <ChevronRight className="h-6 w-6" />
             </Button>
           </div>
         </div>
 
-        {/* Slider */}
+        {/* SLIDER */}
         <div className="relative overflow-hidden">
           <div
-            className="flex gap-6 transition-transform duration-500 ease-in-out"
+            className="flex gap-8 transition-transform duration-500 ease-in-out"
             style={{
               transform: `translateX(-${currentIndex * (100 / itemsPerView)}%)`,
             }}
@@ -70,27 +83,27 @@ export function CapturedMomentsSection() {
                 <img
                   src={moment.image}
                   alt={moment.title}
-                  className="w-full h-64 object-cover"
+                  className="w-full h-[320px] object-cover"
                 />
 
-                <div className="pt-4">
-                  <h3 className="text-xl font-bold text-primary mb-1">
+                <div className="pt-6">
+                  <h3 className="text-xl font-bold text-[#0b1f33] mb-1">
                     {moment.title}
                   </h3>
-                  <p className="text-sm text-muted-foreground mb-3">
+
+                  <p className="text-sm text-gray-500 mb-4">
                     {moment.subtitle}
                   </p>
 
-                  {/* ✅ JIG-JAG READ MORE */}
+                  {/* JIG-JAG READ MORE */}
                   <a
                     href="#"
-                    className="inline-flex items-center gap-2 text-sm font-bold uppercase tracking-wide text-foreground hover:text-primary group"
+                    className="inline-flex items-center gap-2 text-sm font-bold uppercase tracking-wide text-[#0b1f33] hover:text-[#ff3232] group"
                   >
                     Read More
                     <ArrowRight
                       className="
                         h-4 w-4
-                        translate-x-0
                         animate-[jigJag_1.2s_ease-in-out_infinite]
                         group-hover:animate-none
                       "
@@ -103,7 +116,7 @@ export function CapturedMomentsSection() {
         </div>
       </div>
 
-      {/* Tailwind custom keyframes */}
+      {/* Animation */}
       <style jsx global>{`
         @keyframes jigJag {
           0% {

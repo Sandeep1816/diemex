@@ -24,10 +24,11 @@ export function SectorsSection() {
 
   return (
     <section className="py-16 md:py-24">
-      <div className="container mx-auto px-4">
-        <h2 className="text-3xl md:text-4xl lg:text-6xl font-bold text-center mb-12 text-primary text-balance">
-          Explore Diverse Market Sectors at Diemex 2025
-        </h2>
+      <div className="container mx-auto px-0">
+        <h2 className="font-bold text-primary mb-12 text-[36px] md:text-[48px] lg:text-[72px] leading-[1.1]">
+  Explore Diverse Market Sectors at Diemex 2025
+</h2>
+
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
           {sectors.map((sector, index) => (
@@ -66,9 +67,10 @@ export function SectorsSection() {
 
       {/* Explore All Sectors Banner */}
       <div className="bg-[#ef4444] mt-12 py-8 px-6 text-center">
-        <h2 className="text-3xl md:text-4xl lg:text-5xl font-black text-white uppercase tracking-wide">
-          Explore All Sectors
-        </h2>
+      <h2 className="font-black text-white uppercase tracking-wide text-[32px] md:text-[44px] lg:text-[60px] leading-[1.1]">
+  Explore All Sectors
+</h2>
+
       </div>
     </section>
   )

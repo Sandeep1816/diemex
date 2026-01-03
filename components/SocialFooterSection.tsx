@@ -5,7 +5,7 @@ import Link from "next/link"
 export function SocialFooterSection() {
   return (
     <section className=" py-16 md:py-24">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto ">
         <div className="max-w-8xl mx-auto">
           {/* Social Media Section */}
           <div className="grid md:grid-cols-2 gap-12 lg:gap-16 items-center">
@@ -21,7 +21,7 @@ export function SocialFooterSection() {
 
               <Button
                 variant="default"
-                className="bg-[#1a2c42] hover:bg-[#2a3c52] text-white px-8 py-6 text-base font-bold uppercase tracking-wider"
+                className="bg-[#1a2c42] hover:bg-[#2a3c52] text-white px-8 py-6 text-base font-bold uppercase tracking-wider rounded-none"
               >
                 Follow Us
               </Button>

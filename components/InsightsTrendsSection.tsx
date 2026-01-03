@@ -45,7 +45,7 @@ export function InsightsTrendsSection() {
 
   return (
     <section className=" py-16 md:py-24">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto ">
         <div className="flex items-center justify-between mb-12">
           <h2 className="text-4xl md:text-5xl font-bold text-primary text-balance">Event Insights & Industry Trends</h2>
 
@@ -99,8 +99,8 @@ export function InsightsTrendsSection() {
           </div>
         </div>
 
-        <div className="flex justify-center">
-          <div className="bg-[#ef4444] py-6 px-12 rounded-lg">
+        <div className="flex justify-start">
+          <div className="bg-[#ef4444] py-6 px-12 rounded-none">
             <a
               href="#"
               className="text-3xl md:text-4xl font-black text-white uppercase tracking-wide hover:opacity-90 transition-opacity"

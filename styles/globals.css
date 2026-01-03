@@ -168,7 +168,7 @@ p {
 }
 
 .animate-marquee {
-  animation: marquee 25s linear infinite;
+  animation: marquee 5s linear infinite;
 }
 
 /* ======================================================
@@ -195,4 +195,30 @@ p {
   font-size: 1.25rem;
   line-height: 1.75rem;
   margin-bottom: 2.5rem;
+}
+
+/* ======================================================
+   MITT CONTAINER (EXACT MATCH)
+====================================================== */
+
+.mitt-container {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+@media (max-width: 1024px) {
+  .mitt-container {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media (max-width: 640px) {
+  .mitt-container {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
 }
