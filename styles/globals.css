@@ -189,7 +189,21 @@ p {
   line-height: 1;
   color: #10223b;
 }
+.title-208 {
+  font-family: "Bebas Neue", "Etrusco Now Condensed", system-ui, sans-serif;
+  font-size: clamp(40px, 13vw, 200px);
+  font-weight: 700;
+  line-height: 1;
+  color: white;
+}
 
+.title-187 {
+  font-family: "Bebas Neue", "Etrusco Now Condensed", system-ui, sans-serif;
+  font-size: clamp(40px, 13vw, 187px);
+  font-weight: 700;
+  line-height: 1;
+  color: #10223b;
+}
 .subheading {
   font-family: inherit;
   font-size: 1.25rem;

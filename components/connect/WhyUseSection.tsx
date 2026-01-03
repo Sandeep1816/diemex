@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function WhyUseSection() {
   return (
-    <section className="px-6 pb-[140px]">
+    <section className=" pb-[140px]">
       {/* Title */}
       <h2 className="title-90 font-black text-[#0f2238] mb-14">
         Why Use MITT Connect?

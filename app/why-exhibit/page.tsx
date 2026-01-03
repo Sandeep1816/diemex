@@ -28,7 +28,7 @@ export default function WhyExhibitPage() {
       <KeySectors />
       <ConnectDetailSection />
       {/* <Partnerships /> */}
-      <DownloadReport />
+      <DownloadReport  />
       {/* <Testimonials /> */}
       <TestimonialCarousel />
       <ExhibitorsSnapshot />

@@ -39,7 +39,7 @@ const items = [
 
 export default function BusinessObjectives() {
   return (
-    <section className=" px-6 py-28">
+    <section className="  py-28">
       {/* Title */}
       <h2 className="text-[48px] font-bold text-[#0e243f]">
         Stands For Your Business Objectives

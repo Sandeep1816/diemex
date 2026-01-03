@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function UnlockHorizons() {
   return (
     <section className="antialiased">
-      <div className="max-w-full mx-auto px-6 py-24 grid grid-cols-1 lg:grid-cols-2 gap-20">
+      <div className="max-w-full mx-auto  py-24 grid grid-cols-1 lg:grid-cols-2 gap-20">
 
         {/* LEFT COLUMN */}
         <div>

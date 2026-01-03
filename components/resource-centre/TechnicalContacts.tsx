@@ -27,12 +27,13 @@ const contacts = [
 
 export default function TechnicalContacts() {
   return (
-    <section className=" px-6 py-24">
-      <div className="max-w-8xl mx-auto">
+    <section className="  py-15">
+      <div className="max-w-full mx-auto">
         {/* Heading */}
-        <h2 className="text-[40px] font-bold text-[#0e243f] mb-14">
-          For any questions regarding technical services, please contact :
-        </h2>
+     <h2 className="text-[40px] md:text-[60px] leading-[1.15] font-bold text-[#0e243f] mb-14 max-w-[1200px]">
+  For any questions regarding technical services, please contact:
+</h2>
+
 
         {/* Cards */}
         <div className="grid md:grid-cols-2 gap-8">

@@ -3,7 +3,7 @@ import Link from "next/link"
 export function AboutStatsSection() {
   return (
     <section className="py-20 ">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto ">
         {/* Section Title */}
         <h2 className="text-8xl font-bold text-[#1a2c42] -tracking-[0.05em] mb-12">
           About MITT

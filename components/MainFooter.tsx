@@ -109,10 +109,10 @@ export function MainFooter() {
       {/* ================= MARQUEE ================= */}
       <div className=" py-0">
         <div className="flex whitespace-nowrap animate-marquee">
-          <span className="px-16 text-[8rem] md:text-[12rem] font-black leading-none">
+          <span className="title-208 text-[8rem] md:text-[12rem] font-black leading-none">
             DIEMEX 2026
           </span>
-          <span className="px-16 text-[8rem] md:text-[12rem] font-black leading-none">
+          <span className="title-208 text-[8rem] md:text-[12rem] font-black leading-none">
            DIEMEX 2026
           </span>
         </div>

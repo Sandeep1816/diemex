@@ -1,6 +1,6 @@
 export default function HeroSection() {
   return (
-    <section className="px-6 pt-28 pb-20 max-w-full">
+    <section className=" pt-28 pb-20 max-w-full">
       <h1
         className="
           text-[#0f2238]

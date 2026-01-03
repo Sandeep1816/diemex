@@ -5,7 +5,7 @@ export default function HeroSection() {
     <section className="">
 
       {/* TITLE */}
-      <div className="px-6 pt-10 pb-8 md:pt-16 md:pb-12">
+      <div className="pt-10 pb-8 md:pt-16 md:pb-12">
         <h1 className="title-main title-202">
           ABOUT DIEMEX GROUP
         </h1>

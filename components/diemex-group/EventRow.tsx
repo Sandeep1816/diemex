@@ -13,7 +13,7 @@ export default function EventRow({
 }: EventRowProps) {
   return (
     <>
-      <div className="grid grid-cols-1 md:grid-cols-2 items-center py-20">
+      <div className="grid grid-cols-1 md:grid-cols-2 items-center py-20 pr-0">
 
         {/* LEFT CONTENT */}
         <div className="max-w-xl">

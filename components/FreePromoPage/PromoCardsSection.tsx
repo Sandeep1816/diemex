@@ -18,7 +18,7 @@ function PromoCard({
         min-h-[300px]
         flex-col
         bg-[#0f2238]
-        p-5
+        py-5
         lg:p-10
         text-[#f3f2f1]
       "
@@ -73,7 +73,7 @@ export default function PromoCardsSection() {
   return (
     <section className="py-20 2xl:py-32">
       {/* container */}
-      <div className="container mx-auto px-[20px]">
+      <div className="container mx-auto ">
         <div className="grid size-full grid-cols-1 gap-5 md:grid-cols-2 2xl:grid-cols-3">
           
           <PromoCard

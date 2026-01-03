@@ -15,11 +15,11 @@ const items = [
 
 export default function VisitorInfo() {
   return (
-    <section className=" px-6 py-24">
+    <section className="  py-24">
       <div className="mx-auto max-w-[1649px]">
 
         {/* TITLE */}
-        <h2 className="title-70 text-[#10223B] mb-6">
+        <h2 className=" text-[60px] font-bold text-[#10223B] mb-6">
           If you're a visitor:
         </h2>
 

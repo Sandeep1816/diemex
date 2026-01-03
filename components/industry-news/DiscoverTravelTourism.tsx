@@ -1,7 +1,7 @@
 export default function DiscoverTravelTourism() {
   return (
     <section className="w-full py-20">
-      <div className="px-6">
+      <div className="">
 
         {/* Big Heading */}
         <h1

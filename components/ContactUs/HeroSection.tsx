@@ -1,6 +1,6 @@
 export default function HeroSection() {
   return (
-    <section className="pt-[120px] pb-[80px] px-6">
+    <section className="pt-[120px] pb-[80px] ">
       <h1
         className="
           text-[#0f2238]

@@ -3,7 +3,7 @@ import SectorsGrid from "@/components/sectors/SectorsGrid";
 export default function SectorsPage() {
   return (
     <main className=" antialiased">
-      <div className="max-w-full mx-auto px-6 pt-24 pb-32">
+      <div className="max-w-full mx-auto  pt-24 pb-32">
 
         {/* HERO TITLE — EXACT MITT STYLE */}
         <div

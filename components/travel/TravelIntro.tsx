@@ -1,6 +1,6 @@
 export default function TravelIntro() {
   return (
-    <section className="px-8 pb-24 max-w-full mx-auto space-y-8">
+    <section className=" pb-24 max-w-full mx-auto space-y-8">
       <p className="text-lg max-w-4xl">
         Let us help you with a smooth trip to MITT 2025. Read the{" "}
         <span className="underline font-semibold">current rules</span> for entry

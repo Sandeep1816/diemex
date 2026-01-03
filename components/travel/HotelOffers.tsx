@@ -16,11 +16,11 @@ const hotels = [
 
 export default function HotelOffers() {
   return (
-    <section className=" px-6 py-24">
+    <section className="  py-24">
       <div className="mx-auto max-w-[1649px]">
 
         {/* TITLE */}
-        <h2 className="text-[32px] md:text-[40px] font-bold text-[#10223B] mb-6">
+        <h2 className="text-[30px]  font-bold text-[#10223B] mb-6">
           Save Up to 20% on Hotel Stays when you book online using the Promo Code
           <span className="font-extrabold"> ‘EXPO’</span>
         </h2>

@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function WhereTravelConnects() {
   return (
     <section className=" pb-[140px]">
-      <div className=" px-6 grid lg:grid-cols-2 gap-16">
+      <div className="  grid lg:grid-cols-2 gap-16">
 
         <div>
           <h2 className="title-70 font-black text-[#0f2238] leading-tight mb-6">

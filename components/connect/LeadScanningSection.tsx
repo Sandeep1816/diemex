@@ -1,7 +1,7 @@
 export default function LeadScanningSection() {
   return (
     <section className="w-full  py-20">
-  <div className="px-6">
+  <div className="">
 
     {/* Heading */}
     <h2 className="text-[#0f2238] font-extrabold text-4xl md:text-5xl">

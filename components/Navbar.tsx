@@ -21,8 +21,8 @@ export function Navbar() {
             <Image
               src="/images/logo.png"
               alt="diemex"
-              width={70}
-              height={70}
+              width={150}
+              height={150}
             />
             <span className="hidden md:block text-[#0b1f33] text-lg">
               23 - 13 May 2026 - Pune

@@ -4,9 +4,11 @@ export function DownloadSection() {
       <div className="container mx-auto px-0">
         <div className="grid md:grid-cols-[1.4fr_0.6fr] gap-8 lg:gap-16 items-center max-w-full mx-auto">
           
-          {/* LEFT – CONTENT (WIDER) */}
-          <div className="space-y-6">
-            <h2 className="font-bold text-[#0b1f33] text-[36px] md:text-[48px] lg:text-[72px] leading-[1.1]">
+          {/* LEFT – CONTENT */}
+          <div className="space-y-6 text-[#0b1f33]">
+            {/* 👆 forces black text regardless of parent */}
+
+            <h2 className="font-bold text-[36px] md:text-[48px] lg:text-[72px] leading-[1.1]">
               Want to Learn More About MITT?
             </h2>
 
@@ -20,7 +22,7 @@ export function DownloadSection() {
             </button>
           </div>
 
-          {/* RIGHT – IMAGE (NARROWER) */}
+          {/* RIGHT – IMAGE */}
           <div className="relative flex justify-center items-center">
             <img
               src="/images/brochure.png"

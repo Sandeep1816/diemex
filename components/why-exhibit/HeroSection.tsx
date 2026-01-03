@@ -1,7 +1,7 @@
 export default function HeroSection() {
   return (
     <section className=" antialiased">
-      <div className="mx-auto max-w-full px-6 pt-28 pb-24">
+      <div className="mx-auto max-w-full  pt-28 pb-24">
 
         {/* ===== HEADLINE (ONE DIV, TWO SPANS) ===== */}
         <div className="flex flex-col gap-4">
@@ -10,7 +10,7 @@ export default function HeroSection() {
           <span
             className="
               self-start
-              title-submain
+              title-187
               text-[#10223B]
             "
           >
@@ -24,7 +24,7 @@ export default function HeroSection() {
               text-right
              
               text-[#10223B]
-              title-submain
+              title-187
             "
           >
             AT MITT 2026?
@@ -33,7 +33,7 @@ export default function HeroSection() {
         </div>
 
         {/* ===== DESCRIPTION ===== */}
-        <p className="mt-10 max-w-[980px] font-[var(--font-helvetica)] text-[#10223B] text-lg leading-relaxed">
+        <p className="mt-10 max-w-full font-[var(--font-helvetica)] text-[#10223B] text-lg leading-relaxed">
           MITT is your gateway to accessing one of the largest and most dynamic
           travel markets globally, offering unparalleled opportunities to
           showcase your services and connect with decision-makers across the

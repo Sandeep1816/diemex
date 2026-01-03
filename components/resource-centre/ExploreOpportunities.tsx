@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export default function ExploreOpportunities() {
   return (
-    <section className=" px-6 py-24">
+    <section className="  py-24">
       <div className="max-w-8xl mx-auto grid md:grid-cols-2 gap-24 items-center">
         
         {/* LEFT CONTENT */}

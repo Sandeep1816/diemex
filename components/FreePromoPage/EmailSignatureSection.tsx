@@ -1,6 +1,6 @@
 export default function EmailSignatureSection() {
   return (
-    <section className="px-6 w-full py-24">
+    <section className=" w-full py-24">
       <h2
         className="
           text-[#0f2238]

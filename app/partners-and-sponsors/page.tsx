@@ -2,8 +2,8 @@ import PartnersSection from "@/components/partners/PartnersSection";
 
 export default function PartnersAndSponsorsPage() {
   return (
-    <main className="">
-      <div className="max-w-7xl mx-auto px-6 py-20">
+    <main>
+      <div className="max-w-[1400px] mx-auto py-20">
 
         <h1 className="text-5xl md:text-6xl title-202  text-[#0b1c2d] mb-16">
           Our Partners and Sponsors
@@ -12,47 +12,64 @@ export default function PartnersAndSponsorsPage() {
         <PartnersSection
           title="Government"
           items={[
-            "/images/fastenexlogo.webp",
-             "/images/fastenexlogo.webp",
-              "/images/fastenexlogo.webp",
-            // "/images/partners/gov2.png",
-            // "/images/partners/gov3.png",
+            {
+              logo: "/images/fastenexlogo.webp",
+              name: "Government of the Russian Federation",
+              website: "#",
+            },
+            {
+              logo: "/images/fastenexlogo.webp",
+              name: "Government of Altai Krai",
+              website: "#",
+            },
           ]}
         />
 
         <PartnersSection
           title="Association"
           items={[
-         "/images/fastenexlogo.webp",
-             "/images/fastenexlogo.webp",
-              "/images/fastenexlogo.webp",
+            {
+              logo: "/images/fastenexlogo.webp",
+              name: "Association of Tourism Agencies",
+              website: "#",
+            },
+             {
+              logo: "/images/fastenexlogo.webp",
+              name: "Association of Tourism Agencies",
+              website: "#",
+            }
           ]}
         />
 
         <PartnersSection
           title="General Partners"
           items={[
-          "/images/fastenexlogo.webp",
-             "/images/fastenexlogo.webp",
-              "/images/fastenexlogo.webp",
-          ]}
-        />
-
-        <PartnersSection
-          title="MITT Travel Start Partners"
-          items={[
-          "/images/fastenexlogo.webp",
-             "/images/fastenexlogo.webp",
-              "/images/fastenexlogo.webp",
+            {
+              logo: "/images/fastenexlogo.webp",
+              name: "Fastenex Group",
+              website: "#",
+            },
+              {
+              logo: "/images/fastenexlogo.webp",
+              name: "Fastenex Group",
+              website: "#",
+            }
           ]}
         />
 
         <PartnersSection
           title="Media Partners"
           items={[
-           "/images/fastenexlogo.webp",
-             "/images/fastenexlogo.webp",
-              "/images/fastenexlogo.webp",
+            {
+              logo: "/images/fastenexlogo.webp",
+              name: "Travel Media Network",
+              website: "#",
+            },
+             {
+              logo: "/images/fastenexlogo.webp",
+              name: "Travel Media Network",
+              website: "#",
+            }
           ]}
         />
 

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function MatchmakingSection() {
   return (
-    <section className="px-6 pb-[140px] mt-10">
+    <section className=" pb-[140px] mt-10">
       {/* CONTAINER */}
       <div className="">
         

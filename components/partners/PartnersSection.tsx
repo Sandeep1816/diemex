@@ -1,23 +1,29 @@
 import PartnerCard from "./PartnerCard";
 
+export interface PartnerItem {
+  logo: string;
+  name?: string;
+  website?: string;
+}
+
 interface Props {
   title: string;
-  items: string[];
+  items: PartnerItem[];
 }
 
 export default function PartnersSection({ title, items }: Props) {
   return (
-    <section className="mb-24">
+    <section className="mb-32">
 
-      {/* Section Title */}
-      <h2 className="text-xl font-bold text-[#0b1c2d] mb-8">
+      {/* SECTION TITLE */}
+      <h2 className="text-[72px] leading-[1.1] font-bold text-[#0b1c2d] mb-20">
         {title}
       </h2>
 
-      {/* Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-0 border-t border-l border-red-500">
-        {items.map((logo, index) => (
-          <PartnerCard key={index} logo={logo} />
+      {/* GRID */}
+      <div className="grid grid-cols-1 md:grid-cols-2 border-t border-l border-red-500">
+        {items.map((item, index) => (
+          <PartnerCard key={index} {...item} />
         ))}
       </div>
 

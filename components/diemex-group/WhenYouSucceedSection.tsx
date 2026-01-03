@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function WhenYouSucceedSection() {
   return (
     <section className="py-16">
-      <div className="max-w-8xl mx-auto px-6">
+      <div className="max-w-8xl mx-auto ">
 
         {/* Heading */}
         <h2 className="text-6xl md:text-6xl font-extrabold text-[#0b1c2d] mb-10">

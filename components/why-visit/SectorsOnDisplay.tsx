@@ -22,7 +22,7 @@ export default function SectorsOnDisplay() {
   return (
     <section className="py-[140px]">
       <div className="px-6">
-        <h2 className="title-50 font-black text-[#0f2238] mb-12">
+        <h2 className="text-[72px] font-black text-[#0f2238] mb-12">
           Sectors On Display
         </h2>
 

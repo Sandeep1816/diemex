@@ -1,7 +1,7 @@
 export default function VisitorEmailForm() {
   return (
     <section className="w-full pb-[160px]">
-      <div className="max-w-full mx-auto px-4">
+      <div className="max-w-full mx-auto">
 
         <p className="text-[18px] text-[#0f2238] max-w-[1000px] mb-6">
           Please enter the e-mail address where you wish to receive your ticket.

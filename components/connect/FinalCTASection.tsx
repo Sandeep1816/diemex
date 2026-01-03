@@ -3,7 +3,7 @@ export default function FinalCTASection() {
     <section className="w-full  pt-[120px]">
       
       {/* TEXT CONTAINER */}
-      <div className="mx-auto px-6 lg:px-20 pb-[140px]">
+      <div className="mx-auto  lg:px-20 pb-[140px]">
         <h2 className="text-7xl leading-tight font-bold text-[#0f2238] ">
           Ready to use all the benefits to help your business get in front
           of more eyes, make more connections, and learn all about the

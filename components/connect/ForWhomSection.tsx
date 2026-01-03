@@ -1,6 +1,6 @@
 export default function ForWhomSection() {
   return (
-    <section className="max-w-full px-4 pb-[140px] grid lg:grid-cols-2 gap-10">
+    <section className="max-w-full  pb-[140px] grid lg:grid-cols-2 gap-10">
       {["For Exhibitors", "For Visitors"].map((title) => (
         <div key={title} className="bg-[#0f2238] text-white p-14">
           <h3 className="text-[32px] font-black mb-6">{title}</h3>

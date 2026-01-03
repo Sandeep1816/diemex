@@ -16,7 +16,7 @@ export function HeroSection() {
     <section className="relative overflow-hidden min-h-screen">
       <div className="hero-step-mask pointer-events-none" />
 
-      <div className="relative z-20 w-full px-6 lg:px-12 py-24 flex items-center">
+      <div className="relative z-20 w-full  py-24 flex items-center">
         {showText && (
           <h1
             className="

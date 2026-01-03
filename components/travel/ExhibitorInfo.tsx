@@ -24,7 +24,7 @@ const items = [
 
 export default function ExhibitorInfo() {
   return (
-    <section className=" px-6 py-24">
+    <section className="  py-24">
       <div className="mx-auto max-w-[1649px]">
 
         {/* TITLE */}

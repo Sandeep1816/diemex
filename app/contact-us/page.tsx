@@ -8,7 +8,7 @@ export default function ContactUsPage() {
       <HeroSection />
 
       {/* FORM SECTION */}
-      <section className="px-6 lg:px-20 pb-[160px]">
+      <section className=" lg:px-20 pb-[160px]">
         <div className="mx-auto  max-w-[650px]">
           <ContactForm />
         </div>

@@ -1,11 +1,13 @@
 export default function PromoCodeSection() {
   return (
-    <section className="px-6 max-w-full py-20">
+    <section className=" max-w-full py-8">
       <h2
         className="
-          text-[#0f2238]
-          font-extrabold
-          title-92
+          text-[96px]
+          font-bold
+          
+          leading-[1.1]
+        
           
         "
       >

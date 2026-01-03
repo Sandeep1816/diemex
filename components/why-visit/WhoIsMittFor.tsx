@@ -1,7 +1,7 @@
 export default function WhoIsMittFor() {
   return (
     <section className="mt-10 py-[140px]">
-      <div className="max-w-[1400px] mx-auto px-6 lg:px-20">
+      <div className="max-w-[1400px] mx-auto ">
         <h2 className="text-[56px] font-black text-[#0f2238] mb-12">
           Who is MITT for?
         </h2>

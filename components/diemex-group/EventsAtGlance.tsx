@@ -25,7 +25,7 @@ export default function EventsAtGlance() {
   return (
     <section className="py-28">
       {/* FIXED WIDTH + LEFT GUTTER */}
-      <div className="mx-auto max-w-full px-6">
+      <div className="mx-auto max-w-full ">
 
         <h2 className="text-4xl md:text-8xl font-extrabold text-[#0b1c2d] mb-8">
           All Our Events At a Glance

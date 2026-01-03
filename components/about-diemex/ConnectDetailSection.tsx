@@ -54,56 +54,59 @@ export function ConnectDetailSection() {
   const active = SECTIONS[activeIndex]
 
   return (
-    <section className="">
-      <h3 className="text-[150px] text-center">
-        Unmissable Features at MITT
-      </h3>
+  <section>
+  {/* FULL-WIDTH TITLE AREA (NO SIDE PADDING) */}
+  <div className="max-w-[1500px] mx-auto px-[80px]">
+    <h3 className="text-[96px] leading-[1.05] font-bold text-center text-[#0b1f33] mb-6">
+      Unmissable Features at MITT
+    </h3>
 
-      <div className="text-center mb-16">
-        MITT is more than an exhibition—it's a dynamic platform packed with features.
-      </div>
+    <p className="text-[20px] leading-relaxed text-center text-[#0b1f33] mb-20 max-w-4xl mx-auto">
+      MITT is more than an exhibition—it's a dynamic platform packed with features designed to inspire, connect, and drive success in the travel and tourism industry.
+    </p>
+  </div>
 
-      <div className="layout grid md:grid-cols-2 gap-16">
-        {/* LEFT — STICKY TEXT */}
-        <div className="sticky top-32 h-fit py-24">
-          <h2 className="text-[44px] font-bold text-[#1a2c42] mb-6">
-            {active.title}
-          </h2>
+  {/* CONTENT GRID */}
+  <div className="max-w-[1700px] mx-auto px-[80px] grid md:grid-cols-2 gap-16">
+    {/* LEFT — STICKY TEXT */}
+    <div className="sticky top-32 h-fit py-24">
+      <h2 className="text-[44px] font-bold text-[#1a2c42] mb-6">
+        {active.title}
+      </h2>
 
-          <p className="text-[18px] leading-relaxed text-[#1a2c42] max-w-xl mb-6">
-            {active.description}
-          </p>
+      <p className="text-[18px] leading-relaxed text-[#1a2c42] max-w-xl mb-6">
+        {active.description}
+      </p>
 
-          {active.linkText && (
-            <Link
-              href="#"
-              className="underline underline-offset-4 text-[16px] font-medium"
-            >
-              {active.linkText}
-            </Link>
-          )}
+      {active.linkText && (
+        <a
+          href="#"
+          className="underline underline-offset-4 text-[16px] font-medium"
+        >
+          {active.linkText}
+        </a>
+      )}
+    </div>
+
+    {/* RIGHT — IMAGES */}
+    <div>
+      {SECTIONS.map((item, index) => (
+        <div
+          key={index}
+          ref={(el) => (imageRefs.current[index] = el)}
+          data-index={index}
+          className="h-[120vh] w-full"
+        >
+          <img
+            src={item.image}
+            alt={item.title}
+            className="w-full h-full object-cover"
+          />
         </div>
+      ))}
+    </div>
+  </div>
+</section>
 
-        {/* RIGHT — SCROLLING IMAGES */}
-        <div>
-          {SECTIONS.map((item, index) => (
-            <div
-              key={index}
-              ref={(el) => {
-                imageRefs.current[index] = el
-              }}
-              data-index={index}
-              className="h-[120vh] w-full"
-            >
-              <img
-                src={item.image}
-                alt={item.title}
-                className="w-full h-full object-cover"
-              />
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
   )
 }

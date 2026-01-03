@@ -49,7 +49,7 @@ const reasons = [
 export default function ReasonsToExhibit() {
   return (
     <section className=" antialiased">
-      <div className="max-w-full mx-auto px-6 py-28">
+      <div className="max-w-full mx-auto  py-28">
 
         {/* Heading */}
         <h2
