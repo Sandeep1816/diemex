@@ -90,7 +90,7 @@ export function MainFooter() {
     <img
       src="/images/maxx.png"
       alt="Maxx Business Media Pvt. Ltd."
-      className="h-6 md:h-7 w-auto bg-white"
+      className="h-6 md:h-7 w-auto"
     />
   </div>
 </div>
