@@ -12,17 +12,17 @@ export function MainFooter() {
             <div>
               <h3 className="text-base font-semibold mb-4">Email</h3>
               <a
-                href="mailto:mitt@ite.group"
+                href="mailto:pad@maxxmedia.in"
                 className="text-[#bfc7d1] underline underline-offset-4 hover:text-white transition"
               >
-                info@diemex.in
+                pad@maxxmedia.in
               </a>
             </div>
 
             <div>
               <h3 className="text-base font-semibold mb-4">Helpline</h3>
               <a
-                href="tel:+74957995585"
+                href="tel:+91 91483 19993"
                 className="text-[#bfc7d1] underline underline-offset-4 hover:text-white transition"
               >
               +91 -91483 19993
@@ -44,9 +44,9 @@ export function MainFooter() {
                 Opening Times
               </h3>
              <div className="space-y-1 text-[#bfc7d1]">
-  <p>Friday – 20 November 10:00–18:00</p>
-  <p>Saturday – 21 November 10:00–18:00</p>
-  <p>Sunday – 22 November 10:00–18:00</p>
+  <p>Thurstday – 8 October 2026 10:00–18:00</p>
+  <p>Friday    – 9 October 2026 10:00–18:00</p>
+  <p>Saturday  – 10 October 2026 10:00–18:00</p>
 </div>
 
             </div>
