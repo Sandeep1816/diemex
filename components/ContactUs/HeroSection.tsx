@@ -23,14 +23,13 @@ export default function HeroSection() {
           <li>
             <strong className="text-xl">Visitor support:</strong>
             <ul className="ml-4 list-disc">
-              <li className="text-xl">+7-(495)-799-55-85</li>
-              <li className="text-xl">visitors.registration@ite.group</li>
+              <li className="text-xl">+91 91483 19993</li>
+              <li className="text-xl">visitors@diemex.in</li>
             </ul>
           </li>
-          <li className="text-xl"><strong className="text-xl">Email:</strong> mitt@ite.group</li>
+          <li className="text-xl"><strong className="text-xl">Email:</strong> pad@maxxmedia.in</li>
           <li className="text-xl">
-            <strong className="text-xl">Venue:</strong> Moscow region, Krasnogorsk,
-            Mezhdunarodnaya st. 16, 18, 20. Crocus Expo IEC.
+            <strong className="text-xl">Venue:</strong> Auto Cluster Exhibition Centre, Pimpri Chinchwad, Pune, India.
           </li>
         </ul>
       </div>
