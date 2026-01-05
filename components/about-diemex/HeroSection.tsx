@@ -23,7 +23,7 @@ export function HeroSection() {
               title-202
             "
           >
-            <span>GATEWAY TO</span>
+            <span>YOUR GATEWAY TO</span>
             <span>GLOBAL INDUSTRY</span>
             
           </h1>
