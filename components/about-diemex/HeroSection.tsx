@@ -23,9 +23,9 @@ export function HeroSection() {
               title-202
             "
           >
-            <span>YOUR GATEWAY</span>
-            <span>GLOBAL TRAVEL</span>
-            <span>TOURISM</span>
+            <span>GATEWAY TO</span>
+            <span>GLOBAL INDUSTRY</span>
+            
           </h1>
         )}
       </div>
