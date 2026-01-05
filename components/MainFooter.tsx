@@ -35,7 +35,7 @@ export function MainFooter() {
             <div>
               <h3 className="text-base font-semibold mb-4">Venue</h3>
               <p className="text-[#bfc7d1]">
-                Auto Cluster Exhibition Centre, Pune, India
+                Auto Cluster Exhibition Centre, Pune, India.
               </p>
             </div>
 
