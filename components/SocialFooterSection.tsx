@@ -28,7 +28,7 @@ export function SocialFooterSection() {
 
             <div className="flex justify-center md:justify-end gap-6 lg:gap-8">
               <Link
-                href="https://www.instagram.com"
+                href="https://www.instagram.com/diemex_india"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center w-32 h-32 lg:w-40 lg:h-40 rounded-3xl bg-gradient-to-br from-purple-600 via-pink-500 to-orange-400 hover:scale-105 transition-transform shadow-lg"
@@ -36,7 +36,7 @@ export function SocialFooterSection() {
                 <Instagram className="w-16 h-16 lg:w-20 lg:h-20 text-white" strokeWidth={1.5} />
               </Link>
               <Link
-                href="https://www.linkedin.com"
+                href="https://www.linkedin.com/company/diemex-india"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center w-32 h-32 lg:w-40 lg:h-40 rounded-3xl bg-[#0077b5] hover:scale-105 transition-transform shadow-lg"
