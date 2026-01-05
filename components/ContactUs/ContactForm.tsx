@@ -116,11 +116,7 @@ export default function ContactForm() {
 
         {/* T&C */}
         <p className="text-[12px] text-gray-500 leading-relaxed pt-2">
-          T&amp;Cs: By subscribing to the MITT newsletter, you agree to receive
-          marketing communications, updates, and promotional materials from us.
-          You can unsubscribe anytime by clicking the "unsubscribe" link in our emails.
-          For more information on how we handle your data, please refer to our
-          Privacy Policy.
+          T&Cs: By subscribing to the DIEMEX newsletter, you agree to receive marketing communications, updates, and promotional materials from us. You can unsubscribe anytime by clicking the "unsubscribe" link in our emails. For more information on how we handle your data, please refer to our Privacy Policy.
         </p>
       </form>
     </aside>
