@@ -6,7 +6,7 @@ export function AboutStatsSection() {
       <div className="container mx-auto ">
         {/* Section Title */}
         <h2 className="text-8xl font-bold text-[#1a2c42] -tracking-[0.05em] mb-12">
-          About MITT
+          About DIEMEX
         </h2>
 
         {/* Main Grid */}
@@ -24,17 +24,17 @@ export function AboutStatsSection() {
           <div className="space-y-12">
             {/* Description */}
             <p className="text-xl leading-relaxed text-[#1a2c42] max-w-xl">
-              For over 31 years, MITT has been the trusted space for forging
-              partnerships, showcasing innovations, and driving growth in one
-              of the world’s most diverse and rapidly evolving travel and
-              tourism markets.
+              DIEMEX has been India’s premier platform for die, mould, tooling, 
+              and precision manufacturing, connecting manufacturers, OEMs, suppliers, 
+              and technology innovators. The exhibition drives business growth, showcases 
+              cutting-edge solutions, and fosters partnerships across the manufacturing ecosystem.
             </p>
 
             {/* Stats */}
             <div className="grid grid-cols-2 gap-x-16 gap-y-12">
               <div>
                 <div className="text-6xl font-bold text-[#1a2c42]">
-                  16,000+
+                  10,000+
                 </div>
                 <div className="text-base text-gray-600 mt-2">
                   Visitors
@@ -43,7 +43,7 @@ export function AboutStatsSection() {
 
               <div>
                 <div className="text-6xl font-bold text-[#1a2c42]">
-                  900+
+                  200+
                 </div>
                 <div className="text-base text-gray-600 mt-2">
                   Exhibitors
@@ -52,7 +52,7 @@ export function AboutStatsSection() {
 
               <div>
                 <div className="text-6xl font-bold text-[#1a2c42]">
-                  29+
+                  5+
                 </div>
                 <div className="text-base text-gray-600 mt-2">
                   Countries Represented
@@ -61,7 +61,7 @@ export function AboutStatsSection() {
 
               <div>
                 <div className="text-6xl font-bold text-[#1a2c42]">
-                  17
+                  6
                 </div>
                 <div className="text-base text-gray-600 mt-2">
                   Event Sectors
