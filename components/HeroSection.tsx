@@ -25,7 +25,7 @@ export function HeroSection() {
       
       {/* ================= TEXT ================= */}
       <div className=" pt-14 md:pt-20">
-        <h1 className="title-202 max-w-7xl">
+        <h1 className="title-202 max-w-6xl">
           WHERE PRECISION MEETS
         </h1>
 
