@@ -24,7 +24,7 @@ export function HeroSection() {
             "
           >
             <span>YOUR GATEWAY TO GLOBAL</span>
-            <span>INDUSTRY</span>
+            <span>DIE & MOULD MANUFACTURING</span>
           </h1>
         )}
       </div>
