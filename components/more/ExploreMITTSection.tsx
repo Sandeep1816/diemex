@@ -1,7 +1,7 @@
 export default function ExploreMITTSection() {
   return (
     <section className="w-full  py-20">
-      <div className=" px-6">
+      <div className=" ">
         
         {/* Big Heading */}
         <h1 className="text-[#0b1f33] title-202 uppercase tracking-tight leading-none

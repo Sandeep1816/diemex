@@ -70,16 +70,16 @@ export function Navbar() {
 
           {/* DESKTOP NAV */}
           <nav className="hidden lg:flex items-center gap-8 text-xl text-[#0b1f33]">
-            <button onClick={() => setOpen("about")}>About</button>
-            <button onClick={() => setOpen("exhibit")}>Exhibit</button>
-            <button onClick={() => setOpen("attend")}>Attend</button>
-            <button onClick={() => setOpen("insights")}>Industry Insights</button>
-            <Link href="/contact-us">Contact Us</Link>
+            <button className="cursor-pointer" onClick={() => setOpen("about")}>About</button>
+            <button className="cursor-pointer" onClick={() => setOpen("exhibit")}>Exhibit</button>
+            <button className="cursor-pointer" onClick={() => setOpen("attend")}>Attend</button>
+            <button className="cursor-pointer" onClick={() => setOpen("insights")}>Industry Insights</button>
+            <Link className="cursor-pointer" href="/contact-us">Contact Us</Link>
           </nav>
 
           {/* DESKTOP ACTIONS */}
           <div className="hidden lg:flex items-center gap-4">
-            <button onClick={() => setOpen("more")} className="underline text-xl">
+            <button onClick={() => setOpen("more")} className="underline text-xl cursor-pointer">
               More
             </button>
 

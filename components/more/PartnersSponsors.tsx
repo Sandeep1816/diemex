@@ -11,7 +11,7 @@ const partners = [
 export default function PartnersSponsors() {
   return (
     <section className="w-full  py-20 overflow-hidden">
-      <div className="mx-auto px-6">
+      <div className="mx-auto ">
 
         {/* Header */}
         <div className="flex items-center justify-between mb-10">

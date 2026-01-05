@@ -11,11 +11,9 @@ const images = [
 
 export function HeroSection() {
   const [current, setCurrent] = useState(0)
-  const [direction, setDirection] = useState<"left" | "right">("left")
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setDirection((prev) => (prev === "left" ? "right" : "left"))
       setCurrent((prev) => (prev + 1) % images.length)
     }, 4000)
 
@@ -23,41 +21,41 @@ export function HeroSection() {
   }, [])
 
   return (
-<section className="px-0 py-16 md:py-20 overflow-hidden">
-  {/* TEXT — SAME AS NAVBAR */}
-  <div className="">
-    <h1 className="title-202">
-      WHERE DESTINATIONS MEET
-    </h1>
+    <section className="w-full overflow-hidden bg-white">
+      
+      {/* ================= TEXT ================= */}
+      <div className="site-wrapper pt-14 md:pt-20">
+        <h1 className="title-202 max-w-6xl">
+          WHERE PRECISION MANUFACTURING MEETS OPPORTUNITY
+        </h1>
 
-    <p className="mt-4 subheading">
-      The leading B2B exhibition for the travel, tourism and hospitality industry in CIS
-      <br />
-      11–13 March 2026 | Pavilion 1, Crocus Expo | Moscow
-    </p>
-  </div>
-
-  {/* IMAGE — FULL WIDTH */}
-  <div className="mt-10 relative h-[280px] md:h-[420px] lg:h-[520px] w-full">
-    {images.map((src, index) => (
-      <div
-        key={src}
-        className={`absolute inset-0 transition-opacity duration-1000 ${
-          index === current ? "opacity-100" : "opacity-0"
-        }`}
-      >
-        <Image
-          src={src}
-          alt="Travel exhibition"
-          fill
-          className="object-cover"
-          priority={index === 0}
-        />
+        <p className="mt-4 subheading max-w-3xl">
+          The leading B2B exhibition for the Die, Mould & Precision Manufacturing industry
+          <br />
+          8–10 October 2026 | Auto Cluster Exhibition Centre | Pune, India
+        </p>
       </div>
-    ))}
-  </div>
-</section>
 
+      {/* ================= IMAGE ================= */}
+      <div className="relative mt-10 w-full h-[260px] sm:h-[320px] md:h-[420px] lg:h-[520px] xl:h-[600px]">
+        {images.map((src, index) => (
+          <div
+            key={src}
+            className={`absolute inset-0 transition-opacity duration-1000 ${
+              index === current ? "opacity-100" : "opacity-0"
+            }`}
+          >
+            <Image
+              src={src}
+              alt="Diemex exhibition"
+              fill
+              className="object-cover"
+              priority={index === 0}
+            />
+          </div>
+        ))}
+      </div>
 
+    </section>
   )
 }

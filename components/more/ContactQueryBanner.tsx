@@ -1,7 +1,7 @@
 export default function ContactQueryBanner() {
   return (
     <section className="w-full  py-20">
-      <div className="px-6">
+      <div className="">
         
         {/* Section Title */}
         <h2 className="text-6xl font-extrabold text-[#0b1f33] mb-8">

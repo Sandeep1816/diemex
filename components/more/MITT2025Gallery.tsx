@@ -30,7 +30,7 @@ const gallerySections = [
 export default function MITTGallery() {
   return (
     <section className="w-full py-20">
-      <div className="px-6 space-y-24">
+      <div className=" space-y-24">
 
         {gallerySections.map((section) => (
           <div key={section.year}>

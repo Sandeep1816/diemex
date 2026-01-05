@@ -3,7 +3,7 @@ import Image from "next/image"
 export default function HeroSection() {
     return (
         <section className="w-full py-16">
-            <div className=" mx-auto px-4">
+            <div className=" mx-auto ">
 
                 {/* Heading */}
                 <h1 className="title-202 tracking-tight leading-none">

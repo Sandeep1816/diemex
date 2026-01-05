@@ -3,7 +3,7 @@ import Image from "next/image"
 export default function UnlockInsights() {
   return (
     <section className="w-full  py-20">
-      <div className="px-6 grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
+      <div className=" grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
         
         {/* LEFT SIDE */}
         <div>
