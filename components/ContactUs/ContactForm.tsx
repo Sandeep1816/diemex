@@ -27,8 +27,6 @@ export default function ContactForm() {
           <div className="space-y-1">
             {[
               "Sales Team",
-              "Marketing Team",
-              "Technical / Operations Team",
               "Sponsorship Team",
               "General Exhibition Enquiries",
             ].map((item) => (
