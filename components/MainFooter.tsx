@@ -88,7 +88,7 @@ export function MainFooter() {
 
   <div className=" px-3 py-2 flex items-center">
     <img
-      src="/images/maxx logo.png"
+      src="/images/maxx.png"
       alt="Maxx Business Media Pvt. Ltd."
       className="h-6 md:h-7 w-auto bg-white"
     />
