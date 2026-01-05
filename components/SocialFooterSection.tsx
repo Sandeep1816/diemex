@@ -11,12 +11,11 @@ export function SocialFooterSection() {
           <div className="grid md:grid-cols-2 gap-12 lg:gap-16 items-center">
             <div className="space-y-6">
               <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-primary text-balance leading-tight">
-                Want more of MITT?
+                Want more of DIEMEX?
               </h2>
 
               <p className="text-base md:text-lg leading-relaxed text-foreground/80 max-w-xl">
-                Follow us on LinkedIn and Instagram for the latest updates, industry insights, and exclusive
-                opportunities to engage with the global travel community.
+                Follow us on LinkedIn and Instagram for the latest event updates, industry insights, exhibitor highlights, and exclusive opportunities to connect with the die, mould, and precision manufacturing community.
               </p>
 
               <Button

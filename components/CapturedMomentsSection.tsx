@@ -43,7 +43,7 @@ export function CapturedMomentsSection() {
         {/* HEADER */}
         <div className="flex items-center justify-between mb-20">
           <h2 className="text-[72px] leading-[1.1] font-bold text-[#0b1f33]">
-            Captured Moments: The Heart of Diemex
+            Captured Moments from DIEMEX
           </h2>
 
           <div className="flex gap-4">

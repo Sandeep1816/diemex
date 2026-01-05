@@ -29,8 +29,7 @@ export default function RootLayout({
       <body className="antialiased bg-[#e5e7eb] overflow-x-hidden">
         <Navbar />
 
-        {/* ❌ NO site-wrapper here */}
-        <main className="w-full">
+        <main className="site-wrapper">
           {children}
         </main>
 
@@ -40,4 +39,3 @@ export default function RootLayout({
     </html>
   )
 }
-

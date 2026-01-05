@@ -3,21 +3,27 @@ import Link from "next/link"
 export function SectorsSection() {
   const sectors = [
     {
-      title: "Tourist Board",
-      description: "Promote your country's unique culture, attractions, and travel offerings.",
+      title: "Die & Mould Manufacturers",
+      description: "Showcase cutting-edge dies, moulds, and tooling solutions serving automotive, aerospace, electronics, and industrial applications.",
       image: "/great-wall-of-china-scenic-view.jpg",
       link: "#",
     },
     {
-      title: "Travel Agencies",
-      description: "Discover tailored itineraries and services to meet travelers' demands.",
+      title: "Tool Rooms & Precision Engineering",
+      description: "Connect with buyers seeking high-precision machining, tooling, and component manufacturing expertise.",
       image: "/travel-tickets-and-passport.jpg",
       link: "#",
     },
     {
-      title: "Health & Medical Tourism",
-      description: "Access top providers in the growing wellness and healthcare travel sector.",
+      title: "Automation, Robotics & Industry 4.0",
+      description: "Present smart manufacturing solutions including automation systems, robotics, digital twins, and smart factories.",
       image: "/healthcare-professionals-discussing.jpg",
+      link: "#",
+    },
+     {
+      title: "Materials, Software & Supporting Technologies",
+      description: "Highlight advanced materials, CAD/CAM/CAE software, simulation tools, and auxiliary manufacturing technologies.",
+      image: "/great-wall-of-china-scenic-view.jpg",
       link: "#",
     },
   ]

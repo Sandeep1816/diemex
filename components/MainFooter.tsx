@@ -15,7 +15,7 @@ export function MainFooter() {
                 href="mailto:mitt@ite.group"
                 className="text-[#bfc7d1] underline underline-offset-4 hover:text-white transition"
               >
-                mitt@ite.group
+                info@diemex.in
               </a>
             </div>
 
@@ -25,7 +25,7 @@ export function MainFooter() {
                 href="tel:+74957995585"
                 className="text-[#bfc7d1] underline underline-offset-4 hover:text-white transition"
               >
-                +7-(495)-799-55-85
+              +91 -91483 19993
               </a>
             </div>
           </div>
@@ -35,7 +35,7 @@ export function MainFooter() {
             <div>
               <h3 className="text-base font-semibold mb-4">Venue</h3>
               <p className="text-[#bfc7d1]">
-                Crocus Expo, Pavilion 1, Moscow
+                Auto Cluster Exhibition Centre, Pune, India
               </p>
             </div>
 
@@ -43,11 +43,12 @@ export function MainFooter() {
               <h3 className="text-base font-semibold mb-4">
                 Opening Times
               </h3>
-              <div className="space-y-1 text-[#bfc7d1]">
-                <p>Wednesday – 11 March 10:00–18:00</p>
-                <p>Thursday – 12 March 10:00–18:00</p>
-                <p>Friday – 13 March 10:00–16:00</p>
-              </div>
+             <div className="space-y-1 text-[#bfc7d1]">
+  <p>Friday – 20 November 10:00–18:00</p>
+  <p>Saturday – 21 November 10:00–18:00</p>
+  <p>Sunday – 22 November 10:00–18:00</p>
+</div>
+
             </div>
           </div>
 
@@ -81,19 +82,23 @@ export function MainFooter() {
 
       {/* ================= LOWER BAR ================= */}
       <div className="site-wrapper py-6 flex flex-col md:flex-row items-center justify-between gap-6 text-sm">
-        {/* LEFT */}
-        <div className="flex items-center gap-4">
-          <span className="text-[#bfc7d1]">Organised By</span>
-          <div className="border border-red-500 px-2 py-1">
-            <span className="text-red-500 font-bold tracking-wide">
-              ITE
-            </span>
-          </div>
-        </div>
+{/* LEFT */}
+<div className="flex items-center gap-4">
+  <span className="text-[#bfc7d1]">Organised By</span>
+
+  <div className=" px-3 py-2 flex items-center">
+    <img
+      src="/images/maxx.png"
+      alt="Maxx Business Media Pvt. Ltd."
+      className="h-6 md:h-7 w-auto bg-white"
+    />
+  </div>
+</div>
+
 
         {/* RIGHT */}
         <div className="flex flex-wrap items-center gap-4 text-[#bfc7d1]">
-          <span>©MITT 2026 All Right Reserved</span>
+          <span>© DIEMEX 2026. All Rights Reserved.</span>
           <Link href="#" className="hover:text-white">
             Terms of Use
           </Link>

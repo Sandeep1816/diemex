@@ -1,50 +1,62 @@
 export function StatsSection() {
   const stats = [
-    { number: "16,400+", label: "Visitors" },
-    { number: "1000+", label: "Exhibitors" },
-    { number: "30+", label: "Conference Sessions" },
-    { number: "265+", label: "Speakers" },
+    { number: "10,000+", label: "Industry Visitors" },
+    { number: "200+", label: "Exhibitors" },
+    { number: "20+", label: "Technical & Business Sessions" },
+    { number: "20+", label: "Industry Speakers" },
   ]
 
   return (
-    <section className="py-12 md:py-16">
-      <div className="layout">
-        <div className="space-y-12 md:space-y-16">
-          <div className="space-y-6">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary leading-tight">
-              Over 30 Years of Shaping the Future of Travel and Tourism
-            </h2>
+    <section className="w-full py-14 md:py-20 bg-white">
+      <div className="site-wrapper">
 
-            <div className="space-y-4 md:text-lg leading-relaxed subheading">
-              <p>
-                For more than three decades, MITT has been the leading travel and hospitality event in the CIS region,
-                connecting global travel professionals, tourism authorities, and industry leaders.
-              </p>
+        {/* ================= TEXT BLOCK ================= */}
+        <div className="max-w-4xl space-y-6">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-primary leading-tight">
+            Driving the Future of Die & Mould Manufacturing
+          </h2>
 
-              <p>
-                With a legacy of excellence and a reputation as a trusted tool for market expansion, MITT is where
-                opportunities take flight, and the future of travel is envisioned.
-              </p>
+          <div className="space-y-4 subheading text-base md:text-lg leading-relaxed">
+            <p>
+              DIEMEX has emerged as a focused B2B platform for the die, mould,
+              tooling, and precision manufacturing industry, bringing together
+              manufacturers, OEMs, solution providers, and technology leaders
+              from across India and overseas.
+            </p>
 
-              <p className="text-lg md:text-xl text-primary">
-                Welcome to the heart of global tourism innovation, welcome to MITT.
-              </p>
-            </div>
-          </div>
+            <p>
+              Positioned as a trusted marketplace for business expansion,
+              DIEMEX is where innovation, technology, and opportunity
+              converge—enabling meaningful connections and real business
+              outcomes for the manufacturing ecosystem.
+            </p>
 
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12 py-8">
-            {stats.map((stat, index) => (
-              <div key={index} className="text-center space-y-3">
-                <div className="text-5xl md:text-6xl lg:text-7xl font-black text-primary">
-                  {stat.number}
-                </div>
-                <div className="text-base md:text-lg text-muted-foreground">
-                  {stat.label}
-                </div>
-              </div>
-            ))}
+            <p className="text-primary font-medium text-base md:text-xl">
+              Welcome to the hub of precision manufacturing excellence.
+              <br className="hidden sm:block" />
+              Welcome to <span className="font-semibold">DIEMEX</span>.
+            </p>
           </div>
         </div>
+
+        {/* ================= STATS GRID ================= */}
+        <div className="mt-14 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-y-10 gap-x-6 md:gap-12">
+          {stats.map((stat, index) => (
+            <div
+              key={index}
+              className="text-center flex flex-col items-center space-y-3"
+            >
+              <div className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black text-primary leading-none">
+                {stat.number}
+              </div>
+
+              <div className="text-sm sm:text-base md:text-lg text-muted-foreground max-w-[140px]">
+                {stat.label}
+              </div>
+            </div>
+          ))}
+        </div>
+
       </div>
     </section>
   )

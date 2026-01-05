@@ -9,12 +9,11 @@ export function DownloadSection() {
             {/* 👆 forces black text regardless of parent */}
 
             <h2 className="font-bold text-[36px] md:text-[48px] lg:text-[72px] leading-[1.1]">
-              Want to Learn More About MITT?
+              Want to Learn More About DIEMEX?
             </h2>
 
             <p className="text-2xl">
-              Download the Event Brochure to discover who you'll meet, explore the key sectors on display, and learn how
-              MITT can help you tap into Eurasia's growing tourism market and build valuable partnerships.
+             Download the event brochure to discover who you’ll meet, explore the key industry sectors on display, and learn how DIEMEX 2026 can help you connect with India’s growing die, mould, and precision manufacturing market—while building strong, long-term business partnerships.
             </p>
 
             <button className="bg-[#10223B] text-white uppercase tracking-tighter text-xl font-extrabold px-6 py-4 underline">

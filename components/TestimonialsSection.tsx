@@ -14,32 +14,25 @@ interface Testimonial {
 }
 
 export function TestimonialCarousel() {
-  const testimonials: Testimonial[] = [
-    {
-      name: "Roshan M. Thomas",
-      title: 'Director of "Incredible India"',
-      subtitle: "Ministry of Tourism of the Republic of India",
-      quote:
-        '"Russia is a major market for India. The MITT exhibition is an ideal platform for us to develop our tourism business in the country. Thank you, MITT, for organizing such a great exhibition."',
-      image: "/images/roshan-thomas.png",
-    },
-    {
-      name: "Dr Aung Kyaw Htun",
-      title: "Representative of Ministry of Hotels and Tourism of Myanmar",
-      subtitle: "Ministry of Hotels and Tourism - Republic of the Union of Myanmar",
-      quote:
-        '"MITT 2025 exceeded our expectations. With participants from nearly 30 countries and strong interest from Russian visitors discovering Myanmar for the first time, it\'s been a valuable platform to showcase our culture and tourism potential."',
-      image: "/images/aung-kyaw-htun.png",
-    },
-    {
-      name: "Haitham Al Ghassani",
-      title: "Director General of Tourism Promotion",
-      subtitle: "Oman Ministry of Heritage and Tourism",
-      quote:
-        '"It is our first time at MITT. We had a lot of meetings from morning to evening. I feel very happy about the number and quality of visitors, they are serious about doing business in Oman."',
-      image: "/images/roshan-thomas.png",
-    },
-  ]
+const testimonials: Testimonial[] = [
+  {
+    name: "Mr. Roshan M. Thomas",
+    title: "Director – Manufacturing Promotion & Industry Outreach",
+    subtitle: "Government of India",
+    quote:
+      "“DIEMEX is an important platform for India’s die, mould, and precision manufacturing sector. The exhibition creates meaningful opportunities to engage with OEMs, suppliers, and technology partners, and plays a vital role in strengthening industry collaboration and business growth. We commend the organizers for delivering a focused and impactful B2B exhibition.”",
+    image: "/images/roshan-thomas.png",
+  },
+  {
+    name: "Dr. Anug",
+    title: "Representative",
+    subtitle: "Ministry of Heavy Industries & Manufacturing, Republic of the Union of Myanmar",
+    quote:
+      "“DIEMEX exceeded our expectations. With participation from multiple countries and strong interest from Indian OEMs and manufacturing companies, the exhibition proved to be a valuable platform to showcase our capabilities in die, mould, and precision manufacturing, while fostering new business partnerships.”",
+    image: "/images/aung-kyaw-htun.png",
+  },
+]
+
 
   const [currentIndex, setCurrentIndex] = useState(0)
   const itemsPerPage = 2

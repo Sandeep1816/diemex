@@ -21,10 +21,10 @@ export function HeroSection() {
   }, [])
 
   return (
-    <section className="w-full overflow-hidden bg-white">
+    <section className="w-full overflow-hidden ">
       
       {/* ================= TEXT ================= */}
-      <div className="site-wrapper pt-14 md:pt-20">
+      <div className=" pt-14 md:pt-20">
         <h1 className="title-202 max-w-6xl">
           WHERE PRECISION MANUFACTURING MEETS OPPORTUNITY
         </h1>

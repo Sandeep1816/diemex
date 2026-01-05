@@ -7,26 +7,27 @@ import { useState } from "react"
 const insights = [
   {
     date: "14.10.2025",
-    title: "Registration for Diemex 2026 is now open.",
+    title: "Registration for DIEMEX 2026 is Now Open",
     description:
-      "We invite industry professionals to receive a free ticket to Diemex, Russia's largest International Tourism and Hospitality Exhibition!",
+      "Registration for DIEMEX 2026 – International Die & Mould Expo is now open. Industry professionals are invited to register and secure free visitor entry to India’s focused B2B exhibition for die, mould, tooling, and precision manufacturing.",
     image: "/exhibition-crowd-tourism-event.jpg",
   },
   {
     date: "10.10.2025",
-    title: "Tourism & Trade Boost: Saudi Arabia's First Direct Flight to Russia",
+    title: "Automation & Industry 4.0 Driving Growth in Die & Mould Manufacturing",
     description:
-      "Saudia's new Riyadh–Moscow route marks a milestone in Gulf–CIS connectivity, cutting travel time and opening fresh opportunities for...",
+      "The rapid adoption of automation, smart tooling, and digital manufacturing is transforming India’s die and mould sector. Discover how OEM demand, export growth, and technology upgrades are reshaping the industry landscape.",
     image: "/saudi-airlines-plane.jpg",
   },
   {
     date: "08.09.2025",
-    title: "China Introduces Visa-Free Travel for Russian Citizens: A New Opportunity for...",
+    title: "India Strengthens Global Manufacturing Ties with Asia & Europe",
     description:
-      "China's new visa-free policy for Russian travellers marks a major step in regional tourism growth. With easier access for leisure and business...",
+      "India’s expanding trade partnerships with Asia and Europe are opening new opportunities for die & mould exporters, technology suppliers, and precision manufacturers. Learn how global collaboration is influencing sourcing, investment, and innovation.",
     image: "/china-flag-waving.jpg",
   },
 ]
+
 
 export function InsightsTrendsSection() {
   const [currentIndex, setCurrentIndex] = useState(0)
