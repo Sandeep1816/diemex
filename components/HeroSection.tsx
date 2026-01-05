@@ -26,7 +26,7 @@ export function HeroSection() {
       {/* ================= TEXT ================= */}
       <div className=" pt-14 md:pt-20">
         <h1 className="title-202 max-w-6xl">
-          WHERE PRECISION MANUFACTURING MEETS OPPORTUNITY
+          PRECISION MEETS OPPURTUNITY
         </h1>
 
         <p className="mt-4 subheading max-w-3xl">
