@@ -19,7 +19,7 @@ export default function HeroSection() {
         </p>
 
         <ul className="space-y-1">
-          <li><strong className="text-xl">Phone Number:</strong> +7-(495)-799-55-85</li>
+          <li><strong className="text-xl">Phone Number:</strong> +91 91483 19993</li>
           <li>
             <strong className="text-xl">Visitor support:</strong>
             <ul className="ml-4 list-disc">
