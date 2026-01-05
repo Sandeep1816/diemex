@@ -106,17 +106,19 @@ export function MainFooter() {
         </div>
       </div>
 
-      {/* ================= MARQUEE ================= */}
-      <div className=" py-0">
-        <div className="flex whitespace-nowrap animate-marquee">
-          <span className="title-208 text-[8rem] md:text-[12rem] font-black leading-none">
-            DIEMEX 2026
-          </span>
-          <span className="title-208 text-[8rem] md:text-[12rem] font-black leading-none">
-           DIEMEX 2026
-          </span>
-        </div>
-      </div>
+{/* ================= MARQUEE ================= */}
+<div className="overflow-hidden bg-[#0f2742]">
+  <div className="marquee-wrapper">
+    <div className="marquee-content">
+      <span className="title-208">DIEMEX&nbsp;2026&nbsp;&nbsp;</span>
+      <span className="title-208">DIEMEX&nbsp;2026&nbsp;&nbsp;</span>
+      <span className="title-208">DIEMEX&nbsp;2026&nbsp;&nbsp;</span>
+      <span className="title-208">DIEMEX&nbsp;2026&nbsp;&nbsp;</span>
+    </div>
+  </div>
+</div>
+
+
     </footer>
   )
 }

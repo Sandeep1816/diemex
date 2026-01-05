@@ -236,3 +236,33 @@ p {
     padding-right: 24px;
   }
 }
+
+/* ================= CONTINUOUS MARQUEE ================= */
+
+.marquee-wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+
+.marquee-content {
+  display: flex;
+  width: max-content;
+  animation: marquee-scroll 12s linear infinite;
+}
+
+.marquee-content span {
+  white-space: nowrap;
+  padding-right: 3rem;
+}
+
+/* NO font-size here – title-208 controls it */
+
+@keyframes marquee-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
