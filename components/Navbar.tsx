@@ -203,8 +203,8 @@ export function Navbar() {
         sectionNumber="01"
         sectionTitle="About"
         items={[
-          { number: "01", label: "About MITT", href: "/about-diemex" },
-          { number: "02", label: "About ITE Group", href: "/about/about-diemexgroup" },
+          { number: "01", label: "About DIEMEX", href: "/about-diemex" },
+          { number: "02", label: "About The Organizer", href: "/about/about-diemexgroup" },
           { number: "03", label: "Partners and Sponsors", href: "/partners-and-sponsors" },
         ]}
       />
