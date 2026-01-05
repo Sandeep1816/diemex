@@ -6,40 +6,78 @@ import Link from "next/link"
 import { Menu, X } from "lucide-react"
 import { MegaMenu } from "@/components/about-mega-menu"
 
+/* ================= MOBILE MENU DATA ================= */
+const mobileMenu = [
+  {
+    title: "About",
+    items: [
+      { label: "About MITT", href: "/about-diemex" },
+      { label: "About ITE Group", href: "/about/about-diemexgroup" },
+      { label: "Partners and Sponsors", href: "/partners-and-sponsors" },
+    ],
+  },
+  {
+    title: "Exhibit",
+    items: [
+      { label: "Why Exhibit", href: "/why-exhibit" },
+      { label: "Exhibition Sectors", href: "/sectors" },
+      { label: "Plan Your Travel", href: "/plan-your-travel" },
+      { label: "Exhibitor Resource Centre", href: "/exhibitor-resource-centre" },
+      { label: "Exhibitor Promotion", href: "/free-promo" },
+      { label: "Enquire to Exhibit", href: "/exhibitor-enquiry" },
+    ],
+  },
+  {
+    title: "Attend",
+    items: [
+      { label: "Why Visit", href: "/why-visit" },
+      { label: "Event Sectors", href: "/sectors" },
+      { label: "Plan Your Travel", href: "/plan-your-travel" },
+      { label: "Visitor Enquiry", href: "/visitor-registration" },
+    ],
+  },
+  {
+    title: "Industry Insights",
+    items: [
+      { label: "Industry News", href: "/industry-news" },
+      { label: "Download Event Brochure", href: "/download-event-brochure" },
+    ],
+  },
+]
+
 export function Navbar() {
   const [open, setOpen] = useState<null | string>(null)
   const [mobileOpen, setMobileOpen] = useState(false)
+  const [activeMobile, setActiveMobile] = useState<string | null>(null)
 
   return (
     <>
-      {/* HEADER */}
+      {/* ================= HEADER ================= */}
       <header className="w-full sticky top-0 z-50 bg-[#e5e7eb]">
         <div className="px-6 h-20 flex items-center justify-between">
 
-          {/* LEFT */}
-          <Link href="/" className="flex items-center gap-4">
+          {/* LOGO */}
+          <Link href="/" className="flex items-center">
             <Image
               src="/images/logo.png"
-              alt="diemex"
-              width={150}
-              height={150}
+              alt="MITT"
+              width={320}
+              height={80}
+              priority
+              className="w-[200px] md:w-[260px] lg:w-[300px] h-auto"
             />
-            <span className="hidden md:block text-[#0b1f33] text-lg">
-              23 - 13 May 2026 - Pune
-            </span>
           </Link>
 
           {/* DESKTOP NAV */}
-          <nav className="hidden lg:flex items-center gap-6 text-xl text-[#0b1f33]">
+          <nav className="hidden lg:flex items-center gap-8 text-xl text-[#0b1f33]">
             <button onClick={() => setOpen("about")}>About</button>
             <button onClick={() => setOpen("exhibit")}>Exhibit</button>
             <button onClick={() => setOpen("attend")}>Attend</button>
-            <Link href="/connect">Connect</Link>
             <button onClick={() => setOpen("insights")}>Industry Insights</button>
             <Link href="/contact-us">Contact Us</Link>
           </nav>
 
-          {/* DESKTOP RIGHT */}
+          {/* DESKTOP ACTIONS */}
           <div className="hidden lg:flex items-center gap-4">
             <button onClick={() => setOpen("more")} className="underline text-xl">
               More
@@ -62,45 +100,103 @@ export function Navbar() {
             </Link>
           </div>
 
-          {/* MOBILE MENU BUTTON */}
+          {/* MOBILE HAMBURGER */}
           <button
-            className="lg:hidden"
-            onClick={() => setMobileOpen(!mobileOpen)}
+            className="lg:hidden text-[#0b1f33]"
+            onClick={() => setMobileOpen(true)}
           >
-            {mobileOpen ? <X size={28} /> : <Menu size={28} />}
+            <Menu size={32} />
           </button>
         </div>
+      </header>
 
-        {/* MOBILE MENU */}
-        {mobileOpen && (
-          <div className="lg:hidden bg-white border-t px-6 py-6 space-y-4 text-lg">
-            <Link href="/about-diemex" onClick={() => setMobileOpen(false)}>About</Link>
-            <Link href="/why-exhibit" onClick={() => setMobileOpen(false)}>Exhibit</Link>
-            <Link href="/why-visit" onClick={() => setMobileOpen(false)}>Attend</Link>
-            <Link href="/connect" onClick={() => setMobileOpen(false)}>Connect</Link>
-            <Link href="/industry-news" onClick={() => setMobileOpen(false)}>Industry Insights</Link>
-            <Link href="/contact-us" onClick={() => setMobileOpen(false)}>Contact Us</Link>
+      {/* ================= MOBILE MENU ================= */}
+      {mobileOpen && (
+        <div className="fixed inset-0 z-[999] bg-[#0b1f33] text-white overflow-y-auto">
 
-            <div className="pt-4 flex gap-3">
+          {/* TOP BAR */}
+          <div className="flex items-center justify-between px-6 py-5 border-b border-white/10">
+            <Image src="/images/logo.png" alt="MITT" width={220} height={60} />
+            <button onClick={() => setMobileOpen(false)}>
+              <X size={30} />
+            </button>
+          </div>
+
+          {/* MENU CONTENT */}
+          <div className="px-6 py-6 space-y-6 text-xl">
+
+            <p className="text-sm text-white/50">Main Menu</p>
+
+            {mobileMenu.map((section) => (
+              <div key={section.title} className="border-b border-white/10 pb-4">
+
+                {/* SECTION TITLE */}
+                <button
+                  className="w-full flex items-center justify-between"
+                  onClick={() =>
+                    setActiveMobile(
+                      activeMobile === section.title ? null : section.title
+                    )
+                  }
+                >
+                  <span>{section.title}</span>
+                  <span className="text-2xl">
+                    {activeMobile === section.title ? "−" : "+"}
+                  </span>
+                </button>
+
+                {/* SUB ITEMS */}
+                {activeMobile === section.title && (
+                  <div className="mt-4 ml-4 space-y-3 text-lg text-white/80">
+                    {section.items.map((item) => (
+                      <Link
+                        key={item.label}
+                        href={item.href}
+                        onClick={() => setMobileOpen(false)}
+                        className="block"
+                      >
+                        {item.label}
+                      </Link>
+                    ))}
+                  </div>
+                )}
+              </div>
+            ))}
+
+            {/* MORE MENU */}
+            <p className="text-sm text-white/50 pt-8">More Menu</p>
+
+            <Link
+              href="/Conference-Programme"
+              onClick={() => setMobileOpen(false)}
+              className="block"
+            >
+              Conference Programme
+            </Link>
+
+            <Link
+              href="/media-gallery"
+              onClick={() => setMobileOpen(false)}
+              className="block"
+            >
+              Media Gallery
+            </Link>
+
+            {/* CTA */}
+            <div className="pt-10">
               <Link
                 href="/exhibitor-enquiry"
-                className="flex-1 bg-red-500 text-white text-center py-2 rounded-full"
+                onClick={() => setMobileOpen(false)}
+                className="block bg-red-500 text-center py-3 rounded-full text-lg"
               >
                 Exhibit
               </Link>
-              <Link
-                href="/visitor-registration"
-                className="flex-1 bg-red-500 text-white text-center py-2 rounded-full"
-              >
-                Register
-              </Link>
             </div>
           </div>
-        )}
-      </header>
+        </div>
+      )}
 
-      {/* ===== MEGA MENUS (DESKTOP ONLY) ===== */}
-
+      {/* ================= DESKTOP MEGA MENUS ================= */}
       <MegaMenu
         isOpen={open === "about"}
         onClose={() => setOpen(null)}
