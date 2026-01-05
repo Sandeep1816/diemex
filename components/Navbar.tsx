@@ -11,8 +11,8 @@ const mobileMenu = [
   {
     title: "About",
     items: [
-      { label: "About MITT", href: "/about-diemex" },
-      { label: "About ITE Group", href: "/about/about-diemexgroup" },
+      { label: "About DIEMEX", href: "/about-diemex" },
+      { label: "About The Organizer", href: "/about/about-diemexgroup" },
       { label: "Partners and Sponsors", href: "/partners-and-sponsors" },
     ],
   },
